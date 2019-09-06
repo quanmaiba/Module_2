@@ -1,0 +1,21 @@
+C:\Users\HP\source\repos\OOP\OOP2\obj\Debug\netcoreapp2.2\OOP2.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\OOP\OOP2\obj\Debug\netcoreapp2.2\OOP2.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\OOP\OOP2\obj\Debug\netcoreapp2.2\OOP2.AssemblyInfo.cs
+C:\Users\HP\source\repos\OOP\OOP2\bin\Debug\netcoreapp2.2\OOP2.deps.json
+C:\Users\HP\source\repos\OOP\OOP2\bin\Debug\netcoreapp2.2\OOP2.runtimeconfig.json
+C:\Users\HP\source\repos\OOP\OOP2\bin\Debug\netcoreapp2.2\OOP2.runtimeconfig.dev.json
+C:\Users\HP\source\repos\OOP\OOP2\bin\Debug\netcoreapp2.2\OOP2.dll
+C:\Users\HP\source\repos\OOP\OOP2\bin\Debug\netcoreapp2.2\OOP2.pdb
+C:\Users\HP\source\repos\OOP\OOP2\obj\Debug\netcoreapp2.2\OOP2.dll
+C:\Users\HP\source\repos\OOP\OOP2\obj\Debug\netcoreapp2.2\OOP2.pdb
+D:\Module 2\C#\OOP\OOP2\bin\Debug\netcoreapp2.2\OOP2.deps.json
+D:\Module 2\C#\OOP\OOP2\bin\Debug\netcoreapp2.2\OOP2.runtimeconfig.json
+D:\Module 2\C#\OOP\OOP2\bin\Debug\netcoreapp2.2\OOP2.runtimeconfig.dev.json
+D:\Module 2\C#\OOP\OOP2\bin\Debug\netcoreapp2.2\OOP2.dll
+D:\Module 2\C#\OOP\OOP2\bin\Debug\netcoreapp2.2\OOP2.pdb
+D:\Module 2\C#\OOP\OOP2\obj\Debug\netcoreapp2.2\OOP2.csprojAssemblyReference.cache
+D:\Module 2\C#\OOP\OOP2\obj\Debug\netcoreapp2.2\OOP2.csproj.CoreCompileInputs.cache
+D:\Module 2\C#\OOP\OOP2\obj\Debug\netcoreapp2.2\OOP2.AssemblyInfoInputs.cache
+D:\Module 2\C#\OOP\OOP2\obj\Debug\netcoreapp2.2\OOP2.AssemblyInfo.cs
+D:\Module 2\C#\OOP\OOP2\obj\Debug\netcoreapp2.2\OOP2.dll
+D:\Module 2\C#\OOP\OOP2\obj\Debug\netcoreapp2.2\OOP2.pdb

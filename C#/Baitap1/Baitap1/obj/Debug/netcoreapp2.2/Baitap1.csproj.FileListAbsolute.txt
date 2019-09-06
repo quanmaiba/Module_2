@@ -1,0 +1,22 @@
+C:\Users\HP\source\repos\Baitap1\Baitap1\bin\Debug\netcoreapp2.2\Baitap1.deps.json
+C:\Users\HP\source\repos\Baitap1\Baitap1\bin\Debug\netcoreapp2.2\Baitap1.runtimeconfig.json
+C:\Users\HP\source\repos\Baitap1\Baitap1\bin\Debug\netcoreapp2.2\Baitap1.runtimeconfig.dev.json
+C:\Users\HP\source\repos\Baitap1\Baitap1\bin\Debug\netcoreapp2.2\Baitap1.dll
+C:\Users\HP\source\repos\Baitap1\Baitap1\bin\Debug\netcoreapp2.2\Baitap1.pdb
+C:\Users\HP\source\repos\Baitap1\Baitap1\obj\Debug\netcoreapp2.2\Baitap1.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\Baitap1\Baitap1\obj\Debug\netcoreapp2.2\Baitap1.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Baitap1\Baitap1\obj\Debug\netcoreapp2.2\Baitap1.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Baitap1\Baitap1\obj\Debug\netcoreapp2.2\Baitap1.AssemblyInfo.cs
+C:\Users\HP\source\repos\Baitap1\Baitap1\obj\Debug\netcoreapp2.2\Baitap1.dll
+C:\Users\HP\source\repos\Baitap1\Baitap1\obj\Debug\netcoreapp2.2\Baitap1.pdb
+D:\Module 2\C#\Baitap1\Baitap1\bin\Debug\netcoreapp2.2\Baitap1.deps.json
+D:\Module 2\C#\Baitap1\Baitap1\bin\Debug\netcoreapp2.2\Baitap1.runtimeconfig.json
+D:\Module 2\C#\Baitap1\Baitap1\bin\Debug\netcoreapp2.2\Baitap1.runtimeconfig.dev.json
+D:\Module 2\C#\Baitap1\Baitap1\bin\Debug\netcoreapp2.2\Baitap1.dll
+D:\Module 2\C#\Baitap1\Baitap1\bin\Debug\netcoreapp2.2\Baitap1.pdb
+D:\Module 2\C#\Baitap1\Baitap1\obj\Debug\netcoreapp2.2\Baitap1.csprojAssemblyReference.cache
+D:\Module 2\C#\Baitap1\Baitap1\obj\Debug\netcoreapp2.2\Baitap1.csproj.CoreCompileInputs.cache
+D:\Module 2\C#\Baitap1\Baitap1\obj\Debug\netcoreapp2.2\Baitap1.AssemblyInfoInputs.cache
+D:\Module 2\C#\Baitap1\Baitap1\obj\Debug\netcoreapp2.2\Baitap1.AssemblyInfo.cs
+D:\Module 2\C#\Baitap1\Baitap1\obj\Debug\netcoreapp2.2\Baitap1.dll
+D:\Module 2\C#\Baitap1\Baitap1\obj\Debug\netcoreapp2.2\Baitap1.pdb

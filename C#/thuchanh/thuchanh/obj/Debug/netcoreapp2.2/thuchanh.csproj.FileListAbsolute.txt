@@ -1,0 +1,11 @@
+C:\Users\HP\source\repos\thuchanh\thuchanh\bin\Debug\netcoreapp2.2\thuchanh.deps.json
+C:\Users\HP\source\repos\thuchanh\thuchanh\bin\Debug\netcoreapp2.2\thuchanh.runtimeconfig.json
+C:\Users\HP\source\repos\thuchanh\thuchanh\bin\Debug\netcoreapp2.2\thuchanh.runtimeconfig.dev.json
+C:\Users\HP\source\repos\thuchanh\thuchanh\bin\Debug\netcoreapp2.2\thuchanh.dll
+C:\Users\HP\source\repos\thuchanh\thuchanh\bin\Debug\netcoreapp2.2\thuchanh.pdb
+C:\Users\HP\source\repos\thuchanh\thuchanh\obj\Debug\netcoreapp2.2\thuchanh.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\thuchanh\thuchanh\obj\Debug\netcoreapp2.2\thuchanh.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\thuchanh\thuchanh\obj\Debug\netcoreapp2.2\thuchanh.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\thuchanh\thuchanh\obj\Debug\netcoreapp2.2\thuchanh.AssemblyInfo.cs
+C:\Users\HP\source\repos\thuchanh\thuchanh\obj\Debug\netcoreapp2.2\thuchanh.dll
+C:\Users\HP\source\repos\thuchanh\thuchanh\obj\Debug\netcoreapp2.2\thuchanh.pdb

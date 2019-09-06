@@ -1,0 +1,11 @@
+D:\Module 2\C#\OOP\Vehicless\obj\Debug\netcoreapp2.2\Vehicless.csproj.CoreCompileInputs.cache
+D:\Module 2\C#\OOP\Vehicless\obj\Debug\netcoreapp2.2\Vehicless.AssemblyInfoInputs.cache
+D:\Module 2\C#\OOP\Vehicless\obj\Debug\netcoreapp2.2\Vehicless.AssemblyInfo.cs
+D:\Module 2\C#\OOP\Vehicless\bin\Debug\netcoreapp2.2\Vehicless.deps.json
+D:\Module 2\C#\OOP\Vehicless\bin\Debug\netcoreapp2.2\Vehicless.runtimeconfig.json
+D:\Module 2\C#\OOP\Vehicless\bin\Debug\netcoreapp2.2\Vehicless.runtimeconfig.dev.json
+D:\Module 2\C#\OOP\Vehicless\bin\Debug\netcoreapp2.2\Vehicless.dll
+D:\Module 2\C#\OOP\Vehicless\bin\Debug\netcoreapp2.2\Vehicless.pdb
+D:\Module 2\C#\OOP\Vehicless\obj\Debug\netcoreapp2.2\Vehicless.dll
+D:\Module 2\C#\OOP\Vehicless\obj\Debug\netcoreapp2.2\Vehicless.pdb
+D:\Module 2\C#\OOP\Vehicless\obj\Debug\netcoreapp2.2\Vehicless.csprojAssemblyReference.cache

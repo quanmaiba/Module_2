@@ -1,0 +1,11 @@
+D:\Module 2\C#\OOP\OOP5\bin\Debug\netcoreapp2.2\OOP5.deps.json
+D:\Module 2\C#\OOP\OOP5\bin\Debug\netcoreapp2.2\OOP5.runtimeconfig.json
+D:\Module 2\C#\OOP\OOP5\bin\Debug\netcoreapp2.2\OOP5.runtimeconfig.dev.json
+D:\Module 2\C#\OOP\OOP5\bin\Debug\netcoreapp2.2\OOP5.dll
+D:\Module 2\C#\OOP\OOP5\bin\Debug\netcoreapp2.2\OOP5.pdb
+D:\Module 2\C#\OOP\OOP5\obj\Debug\netcoreapp2.2\OOP5.csprojAssemblyReference.cache
+D:\Module 2\C#\OOP\OOP5\obj\Debug\netcoreapp2.2\OOP5.csproj.CoreCompileInputs.cache
+D:\Module 2\C#\OOP\OOP5\obj\Debug\netcoreapp2.2\OOP5.AssemblyInfoInputs.cache
+D:\Module 2\C#\OOP\OOP5\obj\Debug\netcoreapp2.2\OOP5.AssemblyInfo.cs
+D:\Module 2\C#\OOP\OOP5\obj\Debug\netcoreapp2.2\OOP5.dll
+D:\Module 2\C#\OOP\OOP5\obj\Debug\netcoreapp2.2\OOP5.pdb

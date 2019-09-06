@@ -1,0 +1,11 @@
+D:\Module 2\C#\OOP\OOP3\obj\Debug\netcoreapp2.2\OOP3.csprojAssemblyReference.cache
+D:\Module 2\C#\OOP\OOP3\obj\Debug\netcoreapp2.2\OOP3.csproj.CoreCompileInputs.cache
+D:\Module 2\C#\OOP\OOP3\obj\Debug\netcoreapp2.2\OOP3.AssemblyInfoInputs.cache
+D:\Module 2\C#\OOP\OOP3\obj\Debug\netcoreapp2.2\OOP3.AssemblyInfo.cs
+D:\Module 2\C#\OOP\OOP3\bin\Debug\netcoreapp2.2\OOP3.deps.json
+D:\Module 2\C#\OOP\OOP3\bin\Debug\netcoreapp2.2\OOP3.runtimeconfig.json
+D:\Module 2\C#\OOP\OOP3\bin\Debug\netcoreapp2.2\OOP3.runtimeconfig.dev.json
+D:\Module 2\C#\OOP\OOP3\bin\Debug\netcoreapp2.2\OOP3.dll
+D:\Module 2\C#\OOP\OOP3\bin\Debug\netcoreapp2.2\OOP3.pdb
+D:\Module 2\C#\OOP\OOP3\obj\Debug\netcoreapp2.2\OOP3.dll
+D:\Module 2\C#\OOP\OOP3\obj\Debug\netcoreapp2.2\OOP3.pdb

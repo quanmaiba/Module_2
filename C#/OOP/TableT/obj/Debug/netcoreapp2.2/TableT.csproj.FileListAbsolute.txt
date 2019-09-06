@@ -1,0 +1,11 @@
+D:\Module 2\C#\OOP\TableT\bin\Debug\netcoreapp2.2\TableT.deps.json
+D:\Module 2\C#\OOP\TableT\bin\Debug\netcoreapp2.2\TableT.runtimeconfig.json
+D:\Module 2\C#\OOP\TableT\bin\Debug\netcoreapp2.2\TableT.runtimeconfig.dev.json
+D:\Module 2\C#\OOP\TableT\bin\Debug\netcoreapp2.2\TableT.dll
+D:\Module 2\C#\OOP\TableT\bin\Debug\netcoreapp2.2\TableT.pdb
+D:\Module 2\C#\OOP\TableT\obj\Debug\netcoreapp2.2\TableT.csproj.CoreCompileInputs.cache
+D:\Module 2\C#\OOP\TableT\obj\Debug\netcoreapp2.2\TableT.AssemblyInfoInputs.cache
+D:\Module 2\C#\OOP\TableT\obj\Debug\netcoreapp2.2\TableT.AssemblyInfo.cs
+D:\Module 2\C#\OOP\TableT\obj\Debug\netcoreapp2.2\TableT.dll
+D:\Module 2\C#\OOP\TableT\obj\Debug\netcoreapp2.2\TableT.pdb
+D:\Module 2\C#\OOP\TableT\obj\Debug\netcoreapp2.2\TableT.csprojAssemblyReference.cache

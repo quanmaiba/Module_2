@@ -1,0 +1,11 @@
+D:\Module 2\C#\OOP\TestHouse\bin\Debug\netcoreapp2.2\TestHouse.deps.json
+D:\Module 2\C#\OOP\TestHouse\bin\Debug\netcoreapp2.2\TestHouse.runtimeconfig.json
+D:\Module 2\C#\OOP\TestHouse\bin\Debug\netcoreapp2.2\TestHouse.runtimeconfig.dev.json
+D:\Module 2\C#\OOP\TestHouse\bin\Debug\netcoreapp2.2\TestHouse.dll
+D:\Module 2\C#\OOP\TestHouse\bin\Debug\netcoreapp2.2\TestHouse.pdb
+D:\Module 2\C#\OOP\TestHouse\obj\Debug\netcoreapp2.2\TestHouse.csprojAssemblyReference.cache
+D:\Module 2\C#\OOP\TestHouse\obj\Debug\netcoreapp2.2\TestHouse.csproj.CoreCompileInputs.cache
+D:\Module 2\C#\OOP\TestHouse\obj\Debug\netcoreapp2.2\TestHouse.AssemblyInfoInputs.cache
+D:\Module 2\C#\OOP\TestHouse\obj\Debug\netcoreapp2.2\TestHouse.AssemblyInfo.cs
+D:\Module 2\C#\OOP\TestHouse\obj\Debug\netcoreapp2.2\TestHouse.dll
+D:\Module 2\C#\OOP\TestHouse\obj\Debug\netcoreapp2.2\TestHouse.pdb

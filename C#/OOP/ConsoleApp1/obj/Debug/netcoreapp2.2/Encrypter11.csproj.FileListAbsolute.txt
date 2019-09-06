@@ -1,0 +1,10 @@
+D:\Module 2\C#\OOP\ConsoleApp1\bin\Debug\netcoreapp2.2\Encrypter11.deps.json
+D:\Module 2\C#\OOP\ConsoleApp1\bin\Debug\netcoreapp2.2\Encrypter11.runtimeconfig.json
+D:\Module 2\C#\OOP\ConsoleApp1\bin\Debug\netcoreapp2.2\Encrypter11.runtimeconfig.dev.json
+D:\Module 2\C#\OOP\ConsoleApp1\bin\Debug\netcoreapp2.2\Encrypter11.dll
+D:\Module 2\C#\OOP\ConsoleApp1\bin\Debug\netcoreapp2.2\Encrypter11.pdb
+D:\Module 2\C#\OOP\ConsoleApp1\obj\Debug\netcoreapp2.2\Encrypter11.csproj.CoreCompileInputs.cache
+D:\Module 2\C#\OOP\ConsoleApp1\obj\Debug\netcoreapp2.2\Encrypter11.AssemblyInfoInputs.cache
+D:\Module 2\C#\OOP\ConsoleApp1\obj\Debug\netcoreapp2.2\Encrypter11.AssemblyInfo.cs
+D:\Module 2\C#\OOP\ConsoleApp1\obj\Debug\netcoreapp2.2\Encrypter11.dll
+D:\Module 2\C#\OOP\ConsoleApp1\obj\Debug\netcoreapp2.2\Encrypter11.pdb

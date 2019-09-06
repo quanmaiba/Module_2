@@ -1,0 +1,11 @@
+D:\Module 2\C#\OOP\OOP3\obj\Debug\netcoreapp2.2\HinhHoc.csprojAssemblyReference.cache
+D:\Module 2\C#\OOP\OOP3\obj\Debug\netcoreapp2.2\HinhHoc.csproj.CoreCompileInputs.cache
+D:\Module 2\C#\OOP\OOP3\obj\Debug\netcoreapp2.2\HinhHoc.AssemblyInfoInputs.cache
+D:\Module 2\C#\OOP\OOP3\obj\Debug\netcoreapp2.2\HinhHoc.AssemblyInfo.cs
+D:\Module 2\C#\OOP\OOP3\bin\Debug\netcoreapp2.2\HinhHoc.deps.json
+D:\Module 2\C#\OOP\OOP3\bin\Debug\netcoreapp2.2\HinhHoc.runtimeconfig.json
+D:\Module 2\C#\OOP\OOP3\bin\Debug\netcoreapp2.2\HinhHoc.runtimeconfig.dev.json
+D:\Module 2\C#\OOP\OOP3\bin\Debug\netcoreapp2.2\HinhHoc.dll
+D:\Module 2\C#\OOP\OOP3\bin\Debug\netcoreapp2.2\HinhHoc.pdb
+D:\Module 2\C#\OOP\OOP3\obj\Debug\netcoreapp2.2\HinhHoc.dll
+D:\Module 2\C#\OOP\OOP3\obj\Debug\netcoreapp2.2\HinhHoc.pdb
