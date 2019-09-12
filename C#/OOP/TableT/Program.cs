@@ -7,9 +7,14 @@ namespace Table
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            //Leg leg = new Leg(2);
+            //table.ShowData();
 
             Table table = new Table( 200 ,100);
             table.ShowData();
+
+            Leg leg = new Leg(2);
+            leg.ShowData();
             Console.WriteLine("\nsinh ra mang 10 table\n");
 
             Table[] tab = new Table[10];

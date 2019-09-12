@@ -9,31 +9,24 @@ namespace Vehicless
         private string type;
         private double speed;
         private uint wheel;
-        private int id;
-        static int count = 0;
-
+      
         public string Type { get => type; set => type = value; }
         public double Speed { get => speed; set => speed = value; }
         public uint Wheel { get => wheel; set => wheel = value; }
-        public int Id { get => id; set => id = value; }
-
+    
         public Car()
         {
             Type = "mui tran";
             Speed = 50;
-            Wheel = 4 ;
-            count++;
-            Id = count;
-            
+            Wheel = 4 ;         
         }
 
-        public Car(string type , double speed, uint wheel)
+        public Car(string type , double speed, uint wheel,string make , string model , uint year):base(make, model, year)
         {
             Type = type;
             Speed = speed;
             Wheel = wheel;
-            count++;
-            Id = count;
+           
         }
         public override void ToString()
         {

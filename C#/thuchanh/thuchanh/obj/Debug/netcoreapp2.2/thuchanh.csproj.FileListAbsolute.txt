@@ -9,3 +9,14 @@ C:\Users\HP\source\repos\thuchanh\thuchanh\obj\Debug\netcoreapp2.2\thuchanh.Asse
 C:\Users\HP\source\repos\thuchanh\thuchanh\obj\Debug\netcoreapp2.2\thuchanh.AssemblyInfo.cs
 C:\Users\HP\source\repos\thuchanh\thuchanh\obj\Debug\netcoreapp2.2\thuchanh.dll
 C:\Users\HP\source\repos\thuchanh\thuchanh\obj\Debug\netcoreapp2.2\thuchanh.pdb
+D:\Module 2\C#\thuchanh\thuchanh\bin\Debug\netcoreapp2.2\thuchanh.deps.json
+D:\Module 2\C#\thuchanh\thuchanh\bin\Debug\netcoreapp2.2\thuchanh.runtimeconfig.json
+D:\Module 2\C#\thuchanh\thuchanh\bin\Debug\netcoreapp2.2\thuchanh.runtimeconfig.dev.json
+D:\Module 2\C#\thuchanh\thuchanh\bin\Debug\netcoreapp2.2\thuchanh.dll
+D:\Module 2\C#\thuchanh\thuchanh\bin\Debug\netcoreapp2.2\thuchanh.pdb
+D:\Module 2\C#\thuchanh\thuchanh\obj\Debug\netcoreapp2.2\thuchanh.csprojAssemblyReference.cache
+D:\Module 2\C#\thuchanh\thuchanh\obj\Debug\netcoreapp2.2\thuchanh.csproj.CoreCompileInputs.cache
+D:\Module 2\C#\thuchanh\thuchanh\obj\Debug\netcoreapp2.2\thuchanh.AssemblyInfoInputs.cache
+D:\Module 2\C#\thuchanh\thuchanh\obj\Debug\netcoreapp2.2\thuchanh.AssemblyInfo.cs
+D:\Module 2\C#\thuchanh\thuchanh\obj\Debug\netcoreapp2.2\thuchanh.dll
+D:\Module 2\C#\thuchanh\thuchanh\obj\Debug\netcoreapp2.2\thuchanh.pdb

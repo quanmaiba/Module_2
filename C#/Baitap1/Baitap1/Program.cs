@@ -57,13 +57,15 @@ namespace Baitap1
             //ex51();
             //ex52();
             //ex53();
-            //ex50();
-            //ex50();
-            //ex50();
-            //ex50();
-            //ex50();
-            //ex50();
-            //ex50();
+            //ex54();
+            //ex55();
+            //ex56();
+            ex57();
+            //ex58();
+            //ex59();
+            //ex60();
+            //ex61();
+            //ex62();
 
             //Console.ReadKey();
         }
@@ -664,9 +666,169 @@ static void ex27()
         }
         static void ex54()
         {
+            Console.Write("nhap nam: ");
+            int y = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine( $"Century: {centuryFromYear(y)}");
+        }
+        public static int centuryFromYear(int year)
+        {
+            return (int)(year / 100) + ((year % 100 == 0) ? 0 : 1);
+        }
+
+        static void ex55()
+        {
+            Console.WriteLine(array_adjacent_elements_product(new int[] { 2, 4, 2, 6, 9, 3 }) == 27);
+            Console.WriteLine(array_adjacent_elements_product(new int[] { 0, -1, -1, -2 }) == 2);
+            Console.WriteLine(array_adjacent_elements_product(new int[] { 6, 1, 12, 3, 1, 4 }) == 36);
+            Console.WriteLine(array_adjacent_elements_product(new int[] { 1, 4, 3, 0 }) == 16);
+        }
+        public static int array_adjacent_elements_product(int[] input_array)
+        {
+            int max_product = input_array[0] * input_array[1];
+            int product = 0;
+            for (int i = 1; i < input_array.Length - 1; i++)
+            {
+                product = input_array[i] * input_array[i + 1];
+                if (product > max_product)
+                {
+                    max_product = product;
+                }
+            }
+            return max_product;
+        }
+        static void ex56()
+        {
+            Console.WriteLine(checkPalindrome("aaa"));
+            Console.WriteLine(checkPalindrome("abc"));
+            Console.WriteLine(checkPalindrome("madam"));
+            Console.WriteLine(checkPalindrome("1234"));
+        }
+        //kiem tra tinh doi xung
+        public static bool checkPalindrome(string inputString)
+        {
+            char[] c = inputString.ToCharArray();
+            Array.Reverse(c);
+            return new string(c).Equals(inputString);
+        }
+        static void ex57()
+        {
+            Console.WriteLine(adjacent_Elements_Product(new int[] { 1, 3, 4, 5, 2 }));
+            Console.WriteLine(adjacent_Elements_Product(new int[] { 1, 3, -4, 5, 2 }));
+            Console.WriteLine(adjacent_Elements_Product(new int[] { 1, 0, -4, 0, 2 }));
+        }
+        public static int adjacent_Elements_Product(int[] input_Array)
+        {
+            int max = 0;
+            for (int i = 1; i < input_Array.Length;)
+            {
+                max = Math.Max(max, input_Array[i - 1] * input_Array[i++]);
+            }
+            return max;
+        }
+        static void ex58()
+        {
+            Console.WriteLine(consecutive_array(new int[] { 1, 3, 5, 6, 9 }));
+            Console.WriteLine(consecutive_array(new int[] { 0, 10 }));
+        }
+        public static int consecutive_array(int[] input_Array)
+        {
+            Array.Sort(input_Array);
+            int ctr = 0;
+            for (int i = 0; i < input_Array.Length - 1; i++)
+            {
+                ctr += input_Array[i + 1] - input_Array[i] - 1;
+            }
+            return ctr;
+        }
+
+        static void ex59()
+        {
+            Console.WriteLine(test_Increasing_Sequence(new int[] { 1, 3, 5, 6, 9 }));
+            Console.WriteLine(test_Increasing_Sequence(new int[] { 0, 10, 10 }));
+            Console.WriteLine(test_Increasing_Sequence(new int[] { 1, 3, 1, 3 }));
+        }
+        //kiem tra mang co tang hay ko
+        public static bool test_Increasing_Sequence(int[] intArray)
+        {
+            int[] tempArray = (int[])intArray.Clone();
+            Array.Sort(tempArray);
+            return intArray.SequenceEqual(tempArray);
+        }
+        static void ex60()
+        {
+            Console.WriteLine(sum_matrix_elements(
+                        new int[][] {
+                    new int[]{0, 2, 3, 2},
+                    new int[]{0, 6, 0, 1},
+                    new int[]{4, 0, 3, 0}
+                        }));
+            Console.WriteLine(sum_matrix_elements(
+                new int[][] {
+                    new int[]{1, 2, 1, 0 },
+                    new int[]{0, 5, 0, 0},
+                    new int[]{1, 1, 3, 10 }
+                }));
+            Console.WriteLine(sum_matrix_elements(
+                new int[][] {
+                    new int[]{1, 1},
+                    new int[]{2, 2},
+                    new int[]{3, 3},
+                    new int[]{4, 4}
+                }));
 
         }
+        public static int sum_matrix_elements(int[][] my_matrix)
+        {
+            int x = 0;
+            for (int i = 0; i < my_matrix[0].Length; i++)
+                for (int j = 0; j < my_matrix.Length && my_matrix[j][i] > 0; j++)
+                    x += my_matrix[j][i];
+
+            return x;
+        }
+        static void ex61()
+        {
+            int[] x = sort_numbers(new int[] { -5, 236, 120, 70, -5, -5, 698, 280 });
+            foreach (var item in x)
+            {
+                Console.WriteLine(item);
+            }
+        }
+        public static int[] sort_numbers(int[] arra)
+        {
+            //lay ra nhung phan tu khac -5 va sap xep
+            int[] num = arra.Where(x => x != -5).OrderBy(x => x).ToArray();
+            int ctr = 0;
+            Console.WriteLine(String.Join(", ", num));
+
+            return arra.Select(x => x >= 0 ? num[ctr++] : x).ToArray();
+        }
+        static void ex62()
+        {
+            Console.WriteLine(reverse_remove_parentheses("p(rq)st"));
+            Console.WriteLine(reverse_remove_parentheses("(p(rq)st)"));
+            Console.WriteLine(reverse_remove_parentheses("ab(cd(ef)gh)ij"));
+        }
+        public static string reverse_remove_parentheses(string str)
+        {
+            int lid = str.LastIndexOf('(');
+            if (lid == -1) //kiem tra con dau "(" hay ko
+            {
+                return str;
+            }
+            else
+            {
+                int rid = str.IndexOf(')', lid); //tim dau ")" ngay sau dau "("
+
+                return reverse_remove_parentheses(
+                      str.Substring(0, lid) //giu nguyen chuoi truoc cap dau "()"
+                    + new string(str.Substring(lid + 1, rid - lid - 1).Reverse().ToArray()) //dao nguoc chuoi trong cap dau "()"
+                    + str.Substring(rid + 1) //giu nguyen chuoi sau cap dau "()"
+                );
+            }
+        }
     }
+
 }
 
 

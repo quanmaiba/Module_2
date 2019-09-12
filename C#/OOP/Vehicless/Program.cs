@@ -9,21 +9,36 @@ namespace Vehicless
         {
             Console.WriteLine("Hello World!");
             int number ;
-            List<Bike> reclistbike = new List<Bike>();
-            List<Car> reclistcar = new List<Car>();
-          
+            List<Bike> BikeList = new List<Bike>();
+            List<Car> CarList = new List<Car>();
+            string str;
             do
             {
-                menu: Menu();             
-                bool number1 = Int32.TryParse(Console.ReadLine(), out number);
+                Menu();              
+                str = Console.ReadLine();
+                while (!Int32.TryParse(str, out number))
+                {
+                    Console.WriteLine("NHAP LAI");
+                    Console.WriteLine();
+                    Menu();
+                   
+                    str = Console.ReadLine();
+                }
+                //bool number1 = Int32.TryParse(Console.ReadLine(), out number);
                 switch (number)
                 {
                     case 1:
                         Console.WriteLine(" XIN CHAO! CHAO MUNG BAN DEN VOI CUA HANG BIKE!! \n");
                         Console.WriteLine("NHAP SO LUONG ");
-                        string str = Console.ReadLine();
+                        str = Console.ReadLine();
                         int num;
-                        bool check = Int32.TryParse(str, out num);
+                       while(!Int32.TryParse(str, out num))
+                        {
+                            Console.WriteLine("NHAP LAI");
+                            str = Console.ReadLine();
+                        }
+                       
+                        //bool check = Int32.TryParse(str, out num);
 
                         for (int i = 0; i < num; i++)
                         {
@@ -44,7 +59,7 @@ namespace Vehicless
                                 str = Console.ReadLine();
                             }
                             bike.Year = year1;
-                            reclistbike.Add(bike);
+                            BikeList.Add(bike);
                         }
                         Console.WriteLine("--------------------------");
                         Console.WriteLine("BUOC TIEP THEO BAN MUON LAM\n");
@@ -53,7 +68,7 @@ namespace Vehicless
                     case 2:
                         Console.WriteLine($"SO LUONG BIKE DUOC HIEN THI \n");
                         //Console.WriteLine(reclist.Count);
-                        foreach (var show in reclistbike)
+                        foreach (var show in BikeList)
                         {
                             show.ToString();
                         }
@@ -95,14 +110,14 @@ namespace Vehicless
                                 str = Console.ReadLine();
                             }
                             car.Speed = speed1;
-                            reclistcar.Add(car);
+                            CarList.Add(car);
                         }
                         Console.WriteLine("--------------------------");
                         Console.WriteLine("BUOC TIEP THEO BAN MUON LAM\n");
                         break;
                     case 4:
                         Console.WriteLine($"SO LUONG CAR DUOC HIEN THI\n");
-                        foreach (var show in reclistcar)
+                        foreach (var show in CarList)
                         {
                             show.ToString();
                         }
@@ -117,7 +132,7 @@ namespace Vehicless
                         Menu();
                         break;
                 }
-            } while (number != 5);
+            } while (number != 5 );
 
 
         }
