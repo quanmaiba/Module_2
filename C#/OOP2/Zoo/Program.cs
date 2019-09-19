@@ -18,7 +18,7 @@ namespace Zoo
         {
             Menu();
         }
-        
+
         static void Process(int choose)
         {
             zoo = new Zoo();
@@ -37,8 +37,8 @@ namespace Zoo
                             str = Console.ReadLine();
                         }
                         MenuAnimal();
-                        
-                       
+
+
                         cage = new Cage(cageNumber);
                         zoo.AddAnimal(cage);
                     }
@@ -71,7 +71,7 @@ namespace Zoo
                             case 1:
                                 Console.Write("Enter the name of dog: ");
                                 string name = Console.ReadLine();
-                                
+
                                 dog = new Dog(name);
                                 cage.AddAnimal(dog);
                                 break;
@@ -151,7 +151,7 @@ namespace Zoo
             Console.WriteLine("\n----------------------------");
             Console.WriteLine("nhap so:");
             string str1 = Console.ReadLine();
-          
+
             while (!int.TryParse(str1, out choose1))
             {
                 Console.Write("Enter again! ");

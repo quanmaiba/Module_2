@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace Practical_1
 {
     class Program
-    {   
+    {
         static void Main(string[] args)
         {
             ex5();
@@ -39,5 +39,5 @@ namespace Practical_1
             }
         }
     }
-    
+
 }

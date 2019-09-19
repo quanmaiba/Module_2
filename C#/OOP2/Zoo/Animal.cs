@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Zoo
 {
@@ -9,7 +7,7 @@ namespace Zoo
         private string name;
         private int age;
         private string description;
-     
+
         public string Name { get => name; set => name = value; }
         public int Age { get => age; set => age = value; }
         public string Description { get => description; set => description = value; }
@@ -22,12 +20,12 @@ namespace Zoo
         {
             Name = name;
         }
-        public Animal(string name , int age)
+        public Animal(string name, int age)
         {
             Name = name;
             Age = age;
         }
-        public Animal(string name , int age , string description)
+        public Animal(string name, int age, string description)
         {
             Name = name;
             Age = age;

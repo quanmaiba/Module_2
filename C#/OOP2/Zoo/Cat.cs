@@ -1,12 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Zoo
 {
-    class Cat: Animal
+    class Cat : Animal
     {
-        public Cat (string name ,int age, string description) : base(name ,  age, description)
+        public Cat(string name, int age, string description) : base(name, age, description)
         {
             Name = name;
             Description = description;

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace AnimalManagementSystem
 {
     class Program
-    {   
+    {
         static Cat cat;
         static Fish fish;
         static Crocodile crocodile;
@@ -14,40 +14,40 @@ namespace AnimalManagementSystem
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            //crocodile = new Crocodile();
-            //Console.WriteLine(crocodile.ToString());
+
             Menu();
         }
 
         public static void Chay(int num)
         {
+            Console.Clear();
             switch (num)
             {
                 case 1:
                     crocodile = new Crocodile();
                     crocodile.Name = "ca sau ";
                     crocodile.Age = 13;
-                   
+
                     AnimalList.Add(crocodile);
-                  
+
                     break;
                 case 2:
                     cat = new Cat();
                     cat.Name = "meo ";
                     cat.Age = 16;
-                  
+
                     AnimalList.Add(cat);
                     break;
                 case 3:
                     fish = new Fish();
                     fish.Name = "ca";
                     fish.Age = 23;
-                   
+
                     AnimalList.Add(fish);
                     break;
                 case 4:
-                   
-                    foreach(var item in AnimalList)
+
+                    foreach (var item in AnimalList)
                     {
                         if (item is IMarineAnimal)
                         {
@@ -68,21 +68,21 @@ namespace AnimalManagementSystem
                     }
                     break;
                 case 6:
-                    foreach(var item in AnimalList)
-                    {                    
+                    foreach (var item in AnimalList)
+                    {
                         Console.WriteLine($"{item.ToString()}");
                         item.Move();
-               
+
                     }
                     break;
                 case 7:
                     str = Console.ReadLine();
-                    while(!int.TryParse(str, out number) || number <0)
+                    while (!int.TryParse(str, out number) || number < 0)
                     {
                         Console.Write("nhap lai");
                         str = Console.ReadLine();
                     }
-                    foreach(var item in AnimalList)
+                    foreach (var item in AnimalList)
                     {
                         if (item.ID == number)
                         {
@@ -95,8 +95,8 @@ namespace AnimalManagementSystem
                     break;
                 case 8:
                     break;
-                
-                   
+
+
             }
             if (num != 8)
             {
@@ -118,7 +118,7 @@ namespace AnimalManagementSystem
             string str = Console.ReadLine();
             int num;
 
-            while (!int.TryParse(str, out num) || num <= 0 || num >=9 )
+            while (!int.TryParse(str, out num) || num <= 0 || num >= 9)
             {
                 Console.Write("nhap lai: ");
                 Console.Clear();
@@ -129,5 +129,5 @@ namespace AnimalManagementSystem
 
         }
     }
-    
+
 }

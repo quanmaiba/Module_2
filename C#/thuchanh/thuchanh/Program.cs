@@ -34,13 +34,13 @@ namespace thuchanh
 
             for (int i = 0; i < n; i++)
             {
-              for (int j = 0; j < m; j++)
-              {
+                for (int j = 0; j < m; j++)
+                {
                     Console.Write($"nhap phan tu {i}{j}: ");
-                    array[i, j] = Convert.ToInt32 (Console.ReadLine());
+                    array[i, j] = Convert.ToInt32(Console.ReadLine());
 
                     sum += array[i, j];
-              }
+                }
             }
             Console.WriteLine(sum);
 

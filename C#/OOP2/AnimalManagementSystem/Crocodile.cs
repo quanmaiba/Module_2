@@ -1,18 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace AnimalManagementSystem
 {
-    class Crocodile : IMarineAnimal,ITerrestrialAnimal
+    class Crocodile : Animal, IMarineAnimal, ITerrestrialAnimal
     {
-        public int id = 10;       
+        public int id = 10;
         private string name;
         private int age;
         private static int num = 1;
         private Crocodile crocodile;
 
-        public  int ID { get => id; set => id = value; }
+        public int ID { get => id; set => id = value; }
         public string Name { get => name; set => name = value; }
         public int Age { get => age; set => age = value; }
 
@@ -24,7 +22,7 @@ namespace AnimalManagementSystem
         }
         public override string ToString()
         {
-     
+
             return $"{base.GetType()} , id {ID}  , name: {Name} , Age: {Age} ";
         }
 
@@ -32,6 +30,6 @@ namespace AnimalManagementSystem
         {
             Console.WriteLine("Run & Swim");
         }
-      
+
     }
 }

@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Zoo
 {
     class Cage
     {
-        private  int cageNumber;
+        private int cageNumber;
         //private static Cage cage = new Cage();
 
         private List<Animal> AnimalList = new List<Animal>();
@@ -20,17 +18,17 @@ namespace Zoo
         }
         public void AddAnimal(Animal a)
         {
-            
+
             AnimalList1.Add(a);
             //CageNumber++;
-            
+
 
         }
         public void RemoveAnimal(string name)
         {
-            foreach(var item in AnimalList1)
+            foreach (var item in AnimalList1)
             {
-                if(item.Name == name)
+                if (item.Name == name)
                 {
                     AnimalList1.Remove(item);
                     break;
@@ -39,10 +37,10 @@ namespace Zoo
         }
         public void IterateAnimals()
         {
-            foreach(var item in AnimalList1)
+            foreach (var item in AnimalList1)
             {
                 item.ViewInfo();
-               
+
             }
         }
     }
