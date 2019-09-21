@@ -40,7 +40,7 @@ namespace SoSanhArrListVsList
         }
         static void CrList()
         {
-            var startTime = DateTime.Now; 
+            var startTime = DateTime.Now;
             for (int i = 0; i < LENGTH; i++)
             {
                 List.Add(rd.Next(1, 101));
@@ -51,12 +51,12 @@ namespace SoSanhArrListVsList
         }
         static void SrArrList()
         {
-            
+
             ShowArrList();
             value = Check();
 
             index = arrayList.IndexOf(value);
-            if(index == -1)
+            if (index == -1)
             {
                 Console.WriteLine("Not Found");
             }
@@ -64,7 +64,7 @@ namespace SoSanhArrListVsList
             {
                 Console.WriteLine($"value index : {index}");
             }
-           
+
         }
         static void SrList()
         {
@@ -85,13 +85,13 @@ namespace SoSanhArrListVsList
 
         static void UpdateArrList()
         {
-        //    Console.Clear();
+            //    Console.Clear();
             Console.WriteLine("Enter number want update Array List: \n ");
             //ShowArrList();
 
             value = Check();
             Console.WriteLine("Enter value want update: ");
-            string value1 = Console.ReadLine(); 
+            string value1 = Console.ReadLine();
             bool check = false;
             var start = DateTime.Now;
 
@@ -129,7 +129,7 @@ namespace SoSanhArrListVsList
             Console.WriteLine("Enter value want update: ");
             int value1 = Check();
             bool check = false;
-            var start = DateTime.Now;           
+            var start = DateTime.Now;
 
             for (int i = 0; i < LENGTH; i++)
             {
@@ -190,7 +190,7 @@ namespace SoSanhArrListVsList
             Console.WriteLine("enter number want delete on List: ");
             //ShowList();
 
-            value = Check();         
+            value = Check();
             bool check = false;
             var start = DateTime.Now;
 

@@ -81,7 +81,7 @@ namespace Phone
               
             }
             else
-            {
+            { 
                 Console.WriteLine("Not Found");
             }
         }
@@ -89,15 +89,9 @@ namespace Phone
         {
             for (int i = 0; i < sortList.Count; i++)
             {
-                Console.WriteLine(sortList.GetKey(i));
+                Console.WriteLine(sortList.GetKey(i) );
             }
         }
-        public void Show()
-        {
-            foreach (var item in sortList.Keys)
-            {
-                Console.WriteLine();
-            }
-        }
+       
     }
 }

@@ -15,7 +15,7 @@ namespace Ex1AnhKhanh
 
         static void Main(string[] args)
         {
-
+           
             Console.Write("Nhap so luong mang: ");
             str = Console.ReadLine();
             while (!int.TryParse(str, out length) || length < 0 || length > 50)
@@ -90,13 +90,15 @@ namespace Ex1AnhKhanh
                         Console.Write("NHAP LAI: ");
                         str = Console.ReadLine();
                     }
-                    if (FindElement(num1) == (-1))
+                    
+                    int index = BinarySearch(num1)/*FindElement(num1)*/;
+                    if (index == (-1))
                     {
                         Console.WriteLine("Not Found");
                     }
                     else
                     {
-                        Console.WriteLine($"Number is found at: {FindElement(num1)}");
+                        Console.WriteLine($"Number is found at: {index}");
                     }
 
                     break;
@@ -192,6 +194,31 @@ namespace Ex1AnhKhanh
                 }
 
             }
+            return -1;
+        }
+        static int BinarySearch(int value)
+        {
+            int left = 0;
+            int right = arr.Length - 1;
+            int mid;
+
+            while (left <= right)
+            {
+                mid = (left + right) / 2;
+                if (arr[mid] == value)
+                {
+                    return mid;
+                }
+                else if (arr[mid] > value)
+                {
+                    right = mid - 1;
+                }
+                else
+                {
+                    left = mid + 1;
+                }
+            }
+
             return -1;
         }
     }

@@ -83,7 +83,7 @@ namespace BaiTapPokemon
                     Console.Write("Enter again:  ");
                     type = Program.CheckType();
                     //CheckValueType(type);
-                   
+
                 }
                 typePokemon.Add(listType[type - 1]);
                 Console.WriteLine($"Type \"{listType[type - 1]}\" is added.");
