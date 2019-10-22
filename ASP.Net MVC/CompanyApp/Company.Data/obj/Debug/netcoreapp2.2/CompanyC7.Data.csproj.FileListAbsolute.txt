@@ -1,0 +1,12 @@
+D:\Module 2\ASP.Net MVC\CompanyApp\Company.Data\bin\Debug\netcoreapp2.2\CompanyC7.Data.deps.json
+D:\Module 2\ASP.Net MVC\CompanyApp\Company.Data\bin\Debug\netcoreapp2.2\CompanyC7.Data.dll
+D:\Module 2\ASP.Net MVC\CompanyApp\Company.Data\bin\Debug\netcoreapp2.2\CompanyC7.Data.pdb
+D:\Module 2\ASP.Net MVC\CompanyApp\Company.Data\bin\Debug\netcoreapp2.2\CompanyC7.Core.dll
+D:\Module 2\ASP.Net MVC\CompanyApp\Company.Data\bin\Debug\netcoreapp2.2\CompanyC7.Core.pdb
+D:\Module 2\ASP.Net MVC\CompanyApp\Company.Data\obj\Debug\netcoreapp2.2\CompanyC7.Data.csprojAssemblyReference.cache
+D:\Module 2\ASP.Net MVC\CompanyApp\Company.Data\obj\Debug\netcoreapp2.2\CompanyC7.Data.csproj.CoreCompileInputs.cache
+D:\Module 2\ASP.Net MVC\CompanyApp\Company.Data\obj\Debug\netcoreapp2.2\CompanyC7.Data.AssemblyInfoInputs.cache
+D:\Module 2\ASP.Net MVC\CompanyApp\Company.Data\obj\Debug\netcoreapp2.2\CompanyC7.Data.AssemblyInfo.cs
+D:\Module 2\ASP.Net MVC\CompanyApp\Company.Data\obj\Debug\netcoreapp2.2\CompanyC7.Data.csproj.CopyComplete
+D:\Module 2\ASP.Net MVC\CompanyApp\Company.Data\obj\Debug\netcoreapp2.2\CompanyC7.Data.dll
+D:\Module 2\ASP.Net MVC\CompanyApp\Company.Data\obj\Debug\netcoreapp2.2\CompanyC7.Data.pdb

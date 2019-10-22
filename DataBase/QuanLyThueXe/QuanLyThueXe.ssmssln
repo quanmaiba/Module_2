@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# SQL Server Management Studio Solution File, Format Version 12.00
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "QuanLyThueXe", "QuanLyThueXe\QuanLyThueXe.ssmssqlproj", "{E9A5C632-5A96-4E02-A560-5D01A453DB2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9A5C632-5A96-4E02-A560-5D01A453DB2F}.Default|Default.ActiveCfg = Default
+		{94BC333C-EDF1-4818-BBB9-135233BD29D8}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

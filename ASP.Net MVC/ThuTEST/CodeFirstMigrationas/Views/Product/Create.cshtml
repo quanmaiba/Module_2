@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewData["Title"] = "Create";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model CodeFirstMigrationas.Models.Product
+
+@{
+    ViewBag.Title = "Create";
+}
+<style>
+    .field-validation-error {
+        color: red
+    }
+
+    .validation-summary-error {
+        color: red
+    }
+    #validation-summary-valid{
+        color: blue
+    }
+</style>
+
+<h1>Create</h1>
+
+<from actions="/home/create" method="post">
+
+    <div asp-validation-summary="ModelOnly"> All,None
+        <span> Please Correct error</span>
+    </div>
+
+    
+
+    <div class="validation-summary-valid" data-valmsg-summary="true" >
+        <ul><li style="display:none"></li></ul>
+    </div>
+
+    <label asp-for="Name"> Name</label>
+    <input asp-for="Name" />
+    <span asp-validation-for="Name"></span>
+    <br />
+
+    <label for="Racting"> Name</label>
+    <input type="text" name="Racting" />
+
+    <input type="submit" name="submit" />
+</from>
+
+<a href="Home/Create">Create</a>
+
+@{
+    ViewBag.Title = "Create";
+}
+<a href="Home/Create">Create</a>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

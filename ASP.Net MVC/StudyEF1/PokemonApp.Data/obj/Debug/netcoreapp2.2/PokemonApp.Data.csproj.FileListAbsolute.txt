@@ -1,0 +1,14 @@
+D:\Module 2\ASP.Net MVC\StudyEF1\PokemonApp.Data\bin\Debug\netcoreapp2.2\PokemonApp.Data.deps.json
+D:\Module 2\ASP.Net MVC\StudyEF1\PokemonApp.Data\bin\Debug\netcoreapp2.2\PokemonApp.Data.dll
+D:\Module 2\ASP.Net MVC\StudyEF1\PokemonApp.Data\bin\Debug\netcoreapp2.2\PokemonApp.Data.pdb
+D:\Module 2\ASP.Net MVC\StudyEF1\PokemonApp.Data\obj\Debug\netcoreapp2.2\PokemonApp.Data.csprojAssemblyReference.cache
+D:\Module 2\ASP.Net MVC\StudyEF1\PokemonApp.Data\obj\Debug\netcoreapp2.2\PokemonApp.Data.csproj.CoreCompileInputs.cache
+D:\Module 2\ASP.Net MVC\StudyEF1\PokemonApp.Data\obj\Debug\netcoreapp2.2\PokemonApp.Data.AssemblyInfoInputs.cache
+D:\Module 2\ASP.Net MVC\StudyEF1\PokemonApp.Data\obj\Debug\netcoreapp2.2\PokemonApp.Data.AssemblyInfo.cs
+D:\Module 2\ASP.Net MVC\StudyEF1\PokemonApp.Data\obj\Debug\netcoreapp2.2\PokemonApp.Data.dll
+D:\Module 2\ASP.Net MVC\StudyEF1\PokemonApp.Data\obj\Debug\netcoreapp2.2\PokemonApp.Data.pdb
+D:\Module 2\ASP.Net MVC\StudyEF1\PokemonApp.Data\bin\Debug\netcoreapp2.2\PokemonApp.Data.runtimeconfig.json
+D:\Module 2\ASP.Net MVC\StudyEF1\PokemonApp.Data\bin\Debug\netcoreapp2.2\PokemonApp.Data.runtimeconfig.dev.json
+D:\Module 2\ASP.Net MVC\StudyEF1\PokemonApp.Data\bin\Debug\netcoreapp2.2\PokemonApp.Domain.dll
+D:\Module 2\ASP.Net MVC\StudyEF1\PokemonApp.Data\bin\Debug\netcoreapp2.2\PokemonApp.Domain.pdb
+D:\Module 2\ASP.Net MVC\StudyEF1\PokemonApp.Data\obj\Debug\netcoreapp2.2\PokemonApp.Data.csproj.CopyComplete

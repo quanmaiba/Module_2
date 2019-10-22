@@ -1,0 +1,37 @@
+﻿@page
+@model WoTWithBs4.Pages.Wot.DetailModel
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h1>Detail</h1>
+
+<p class="display-4">@Model.tank.TankName</p>
+<table class="table table-dark w-50">
+    <tr>
+        <th>TankId </th>
+        <td>@Model.tank.TankId</td>
+    </tr>
+    <tr>
+        <th>TankTier </th>
+        <td>@Model.tank.TankTier</td>
+    </tr>
+    <tr>
+        <th>FirePower </th>
+        <td>@Model.tank.FirePower</td>
+    </tr>
+    <tr>
+        <th>Survivability </th>
+        <td>@Model.tank.Survivability</td>
+    </tr>
+    <tr>
+        <th>Concealment </th>
+        <td>@Model.tank.Concealment</td>
+    </tr>
+    <tr>
+        <th>Spotting </th>
+        <td>@Model.tank.Spotting</td>
+    </tr>
+</table>
+
+<a asp-page="./Tank">Back to tank</a>

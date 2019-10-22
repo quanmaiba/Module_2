@@ -1,0 +1,71 @@
+﻿@model WOTWebApp.Models.Tank
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Tank</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="TankName" class="control-label"></label>
+                <input asp-for="TankName" class="form-control" />
+                <span asp-validation-for="TankName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TankTier" class="control-label"></label>
+                <input asp-for="TankTier" class="form-control" />
+                <span asp-validation-for="TankTier" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirePower" class="control-label"></label>
+                <input asp-for="FirePower" class="form-control" />
+                <span asp-validation-for="FirePower" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Survivability" class="control-label"></label>
+                <input asp-for="Survivability" class="form-control" />
+                <span asp-validation-for="Survivability" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mobility" class="control-label"></label>
+                <input asp-for="Mobility" class="form-control" />
+                <span asp-validation-for="Mobility" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Concealment" class="control-label"></label>
+                <input asp-for="Concealment" class="form-control" />
+                <span asp-validation-for="Concealment" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Spotting" class="control-label"></label>
+                <input asp-for="Spotting" class="form-control" />
+                <span asp-validation-for="Spotting" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TankType.TankTypeName" class="control-label"></label>
+                <select asp-for="TankTypeId" class ="form-control" asp-items="ViewBag.TankTypeId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Nation.NationName" class="control-label"></label>
+                <select asp-for="NationId" class ="form-control" asp-items="ViewBag.NationId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

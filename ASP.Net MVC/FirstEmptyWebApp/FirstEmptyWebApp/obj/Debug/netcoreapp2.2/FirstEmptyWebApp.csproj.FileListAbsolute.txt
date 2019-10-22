@@ -1,0 +1,14 @@
+D:\Module 2\ASP.Net MVC\FirstEmptyWebApp\FirstEmptyWebApp\bin\Debug\netcoreapp2.2\FirstEmptyWebApp.deps.json
+D:\Module 2\ASP.Net MVC\FirstEmptyWebApp\FirstEmptyWebApp\bin\Debug\netcoreapp2.2\FirstEmptyWebApp.runtimeconfig.json
+D:\Module 2\ASP.Net MVC\FirstEmptyWebApp\FirstEmptyWebApp\bin\Debug\netcoreapp2.2\FirstEmptyWebApp.runtimeconfig.dev.json
+D:\Module 2\ASP.Net MVC\FirstEmptyWebApp\FirstEmptyWebApp\bin\Debug\netcoreapp2.2\FirstEmptyWebApp.dll
+D:\Module 2\ASP.Net MVC\FirstEmptyWebApp\FirstEmptyWebApp\bin\Debug\netcoreapp2.2\FirstEmptyWebApp.pdb
+D:\Module 2\ASP.Net MVC\FirstEmptyWebApp\FirstEmptyWebApp\obj\Debug\netcoreapp2.2\FirstEmptyWebApp.csprojAssemblyReference.cache
+D:\Module 2\ASP.Net MVC\FirstEmptyWebApp\FirstEmptyWebApp\obj\Debug\netcoreapp2.2\FirstEmptyWebApp.csproj.CoreCompileInputs.cache
+D:\Module 2\ASP.Net MVC\FirstEmptyWebApp\FirstEmptyWebApp\obj\Debug\netcoreapp2.2\FirstEmptyWebApp.RazorAssemblyInfo.cache
+D:\Module 2\ASP.Net MVC\FirstEmptyWebApp\FirstEmptyWebApp\obj\Debug\netcoreapp2.2\FirstEmptyWebApp.RazorAssemblyInfo.cs
+D:\Module 2\ASP.Net MVC\FirstEmptyWebApp\FirstEmptyWebApp\obj\Debug\netcoreapp2.2\FirstEmptyWebApp.AssemblyInfoInputs.cache
+D:\Module 2\ASP.Net MVC\FirstEmptyWebApp\FirstEmptyWebApp\obj\Debug\netcoreapp2.2\FirstEmptyWebApp.AssemblyInfo.cs
+D:\Module 2\ASP.Net MVC\FirstEmptyWebApp\FirstEmptyWebApp\obj\Debug\netcoreapp2.2\FirstEmptyWebApp.RazorTargetAssemblyInfo.cache
+D:\Module 2\ASP.Net MVC\FirstEmptyWebApp\FirstEmptyWebApp\obj\Debug\netcoreapp2.2\FirstEmptyWebApp.dll
+D:\Module 2\ASP.Net MVC\FirstEmptyWebApp\FirstEmptyWebApp\obj\Debug\netcoreapp2.2\FirstEmptyWebApp.pdb

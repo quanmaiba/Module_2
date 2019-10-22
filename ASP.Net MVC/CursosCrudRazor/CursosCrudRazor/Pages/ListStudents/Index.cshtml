@@ -1,0 +1,75 @@
+﻿@page
+@model CursosCrudRazor.Pages.ListStudents.IndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<br />
+<div class="container row">
+    <div class=" col-6">
+        <h2 class="text-info"> List Student</h2>
+    </div>
+   
+</div>
+@if (Model.Message != null)
+{
+    <div class="alert alert-warning alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="close">
+            <span aria-hidden="true"> &times;</span>
+        </button>
+        @Model.Message
+    </div>
+}
+<form method="get" class="form-inline">
+    <div class="border badge-pill bs-popover-auto border-primary">
+        <div>
+            <input type="text" asp-for="SearchKeyWord" class=" badge-pill border-0" />
+            <button class="text-info btn btn-outline-light border-0">
+                <i class="fa fa-search "></i>
+            </button>
+        </div>
+    </div>
+</form>
+<form method="post">
+    @*@if (Model.Students.Count() > 0)*@
+    <br /><br />
+    <table class="table table-striped border">
+        <tr class="table-info ">
+            <th>
+                @*Name Student*@
+                @Html.DisplayNameFor(m => Model.Student.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(m => m.Students.FirstOrDefault().Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(m => Model.Student.Skill)
+            </th>
+            <th class="text-center">
+                <a asp-page="AddOrEdit" asp-route-id="0" asp class="btn btn-primary"><i class="far fa-plus-square"></i> Student</a>
+            </th>
+            
+        </tr>
+        @foreach (var item in Model.Students)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Address</td>
+                <td>@item.Skill</td>
+                <td class="text-center">
+                    <a asp-route-id="@item.Id" asp-page="AddOrEdit" class="text-success ml-2"><i class="fa fa-marker fa-lg"></i></a>
+                    <a asp-page="Detail" asp-route-id="@item.Id" class="text-info ml-2"><i class="fa fa-search-plus"></i></a>
+                    <button asp-page-handler="Delete" asp-route-id="@item.Id" class="text-danger ml-2" onclick="return confirm('Are you sure to delete this record?')">
+                        <i class="fa fa-trash-alt fa-lg"></i></button>
+                </td>
+            </tr>
+        }
+    </table>
+    @*}
+        else
+        {
+            <p>No Ok</p>
+        }*@
+
+</form>
+@*onclick="return confirm('Delete Finish')"*@

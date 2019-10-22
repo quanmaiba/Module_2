@@ -1,0 +1,48 @@
+﻿@page
+@model WebGameLolView.Pages.SkillHero.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SkillHeroes[0].NameSkillHero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SkillHeroes[0].DescriptionSkinHero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SkillHeroes[0].Hero)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.SkillHeroes) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NameSkillHero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DescriptionSkinHero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Hero.HeroId)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.SkillHeroId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.SkillHeroId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.SkillHeroId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

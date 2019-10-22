@@ -1,0 +1,9 @@
+D:\Module 2\ASP.Net MVC\StudyEF1\PokemonApp.Domain\bin\Debug\netcoreapp2.2\PokemonApp.Domain.deps.json
+D:\Module 2\ASP.Net MVC\StudyEF1\PokemonApp.Domain\bin\Debug\netcoreapp2.2\PokemonApp.Domain.dll
+D:\Module 2\ASP.Net MVC\StudyEF1\PokemonApp.Domain\bin\Debug\netcoreapp2.2\PokemonApp.Domain.pdb
+D:\Module 2\ASP.Net MVC\StudyEF1\PokemonApp.Domain\obj\Debug\netcoreapp2.2\PokemonApp.Domain.csprojAssemblyReference.cache
+D:\Module 2\ASP.Net MVC\StudyEF1\PokemonApp.Domain\obj\Debug\netcoreapp2.2\PokemonApp.Domain.csproj.CoreCompileInputs.cache
+D:\Module 2\ASP.Net MVC\StudyEF1\PokemonApp.Domain\obj\Debug\netcoreapp2.2\PokemonApp.Domain.AssemblyInfoInputs.cache
+D:\Module 2\ASP.Net MVC\StudyEF1\PokemonApp.Domain\obj\Debug\netcoreapp2.2\PokemonApp.Domain.AssemblyInfo.cs
+D:\Module 2\ASP.Net MVC\StudyEF1\PokemonApp.Domain\obj\Debug\netcoreapp2.2\PokemonApp.Domain.dll
+D:\Module 2\ASP.Net MVC\StudyEF1\PokemonApp.Domain\obj\Debug\netcoreapp2.2\PokemonApp.Domain.pdb

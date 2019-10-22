@@ -1,0 +1,4 @@
+D:\Module 2\ASP.Net MVC\TesRazorPage\RazorPage\QLS.Data\obj\Debug\netcoreapp2.2\QLS.Data.csprojAssemblyReference.cache
+D:\Module 2\ASP.Net MVC\TesRazorPage\RazorPage\QLS.Data\obj\Debug\netcoreapp2.2\QLS.Data.csproj.CoreCompileInputs.cache
+D:\Module 2\ASP.Net MVC\TesRazorPage\RazorPage\QLS.Data\obj\Debug\netcoreapp2.2\QLS.Data.AssemblyInfoInputs.cache
+D:\Module 2\ASP.Net MVC\TesRazorPage\RazorPage\QLS.Data\obj\Debug\netcoreapp2.2\QLS.Data.AssemblyInfo.cs

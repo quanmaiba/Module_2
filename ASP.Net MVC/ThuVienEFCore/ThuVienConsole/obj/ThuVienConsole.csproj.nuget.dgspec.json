@@ -1,0 +1,201 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Module 2\\ASP.Net MVC\\ThuVienEFCore\\ThuVienConsole\\ThuVienConsole.csproj": {}
+  },
+  "projects": {
+    "D:\\Module 2\\ASP.Net MVC\\ThuVienEFCore\\ThuVien.AppData\\ThuVien.AppData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Module 2\\ASP.Net MVC\\ThuVienEFCore\\ThuVien.AppData\\ThuVien.AppData.csproj",
+        "projectName": "ThuVien.AppData",
+        "projectPath": "D:\\Module 2\\ASP.Net MVC\\ThuVienEFCore\\ThuVien.AppData\\ThuVien.AppData.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "D:\\Module 2\\ASP.Net MVC\\ThuVienEFCore\\ThuVien.AppData\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Module 2\\ASP.Net MVC\\ThuVienEFCore\\ThuVien.DoMain\\ThuVien.DoMain.csproj": {
+                "projectPath": "D:\\Module 2\\ASP.Net MVC\\ThuVienEFCore\\ThuVien.DoMain\\ThuVien.DoMain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.8, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Module 2\\ASP.Net MVC\\ThuVienEFCore\\ThuVien.DoMain\\ThuVien.DoMain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Module 2\\ASP.Net MVC\\ThuVienEFCore\\ThuVien.DoMain\\ThuVien.DoMain.csproj",
+        "projectName": "ThuVien.DoMain",
+        "projectPath": "D:\\Module 2\\ASP.Net MVC\\ThuVienEFCore\\ThuVien.DoMain\\ThuVien.DoMain.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "D:\\Module 2\\ASP.Net MVC\\ThuVienEFCore\\ThuVien.DoMain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Module 2\\ASP.Net MVC\\ThuVienEFCore\\ThuVienConsole\\ThuVienConsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Module 2\\ASP.Net MVC\\ThuVienEFCore\\ThuVienConsole\\ThuVienConsole.csproj",
+        "projectName": "ThuVienConsole",
+        "projectPath": "D:\\Module 2\\ASP.Net MVC\\ThuVienEFCore\\ThuVienConsole\\ThuVienConsole.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "D:\\Module 2\\ASP.Net MVC\\ThuVienEFCore\\ThuVienConsole\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Module 2\\ASP.Net MVC\\ThuVienEFCore\\ThuVien.AppData\\ThuVien.AppData.csproj": {
+                "projectPath": "D:\\Module 2\\ASP.Net MVC\\ThuVienEFCore\\ThuVien.AppData\\ThuVien.AppData.csproj"
+              },
+              "D:\\Module 2\\ASP.Net MVC\\ThuVienEFCore\\ThuVien.DoMain\\ThuVien.DoMain.csproj": {
+                "projectPath": "D:\\Module 2\\ASP.Net MVC\\ThuVienEFCore\\ThuVien.DoMain\\ThuVien.DoMain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

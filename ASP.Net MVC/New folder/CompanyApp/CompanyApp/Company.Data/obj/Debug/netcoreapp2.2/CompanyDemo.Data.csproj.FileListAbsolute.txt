@@ -1,0 +1,14 @@
+D:\Aspnetcore\Company.Data\bin\Debug\netcoreapp2.2\CompanyDemo.Data.deps.json
+D:\Aspnetcore\Company.Data\bin\Debug\netcoreapp2.2\CompanyDemo.Data.dll
+D:\Aspnetcore\Company.Data\bin\Debug\netcoreapp2.2\CompanyDemo.Data.pdb
+D:\Aspnetcore\Company.Data\bin\Debug\netcoreapp2.2\CompanyDemo.Core.dll
+D:\Aspnetcore\Company.Data\bin\Debug\netcoreapp2.2\CompanyDemo.Core.pdb
+D:\Aspnetcore\Company.Data\obj\Debug\netcoreapp2.2\CompanyDemo.Data.csprojAssemblyReference.cache
+D:\Aspnetcore\Company.Data\obj\Debug\netcoreapp2.2\CompanyDemo.Data.csproj.CoreCompileInputs.cache
+D:\Aspnetcore\Company.Data\obj\Debug\netcoreapp2.2\CompanyDemo.Data.AssemblyInfoInputs.cache
+D:\Aspnetcore\Company.Data\obj\Debug\netcoreapp2.2\CompanyDemo.Data.AssemblyInfo.cs
+D:\Aspnetcore\Company.Data\obj\Debug\netcoreapp2.2\CompanyDemo.Data.csproj.CopyComplete
+D:\Aspnetcore\Company.Data\obj\Debug\netcoreapp2.2\CompanyDemo.Data.dll
+D:\Aspnetcore\Company.Data\obj\Debug\netcoreapp2.2\CompanyDemo.Data.pdb
+D:\Aspnetcore\Company.Data\bin\Debug\netcoreapp2.2\CompanyDemo.Data.runtimeconfig.json
+D:\Aspnetcore\Company.Data\bin\Debug\netcoreapp2.2\CompanyDemo.Data.runtimeconfig.dev.json

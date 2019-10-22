@@ -1,0 +1,59 @@
+﻿@model MVCStudent.ViewModel.StudentsListViewModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-warning alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="close">
+            <span aria-hidden="true"> &times;</span>
+        </button>
+        @TempData["Message"]
+    </div>
+}
+
+
+<form method="post">
+    <br /><br />
+    <table class="table table-striped border">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(s => Model.Student.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(s => Model.Student.History)
+            </th>
+            <th>
+                @Html.DisplayNameFor(s => Model.Student.Sex)
+            </th>
+            <th>
+                @Html.DisplayNameFor(s => Model.Student.Group)
+            </th>
+            <th class="text-center">
+                <a asp-action="Create" asp-controller="Student" class="btn btn-outline-info "><i class="far fa-plus-square"></i> Student</a>
+            </th>
+        </tr>
+
+        <tbody>
+            @foreach (var student in Model.Students)
+            {
+                <partial name="_StudentView" model="student" />
+            }
+        </tbody>
+    </table>
+</form>
+
+@*<section class="py-5">
+    <div class="container">
+        <h2 class="mb-5 text-center">@Model.CurrentGroup</h2>
+        <div class="card-deck">
+            @foreach (var student in Model.Students)
+            {
+                <partial name="_StudentCard" model="student" />
+            }
+        </div>
+    </div>
+</section>*@

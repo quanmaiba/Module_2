@@ -1,0 +1,83 @@
+﻿@model IEnumerable<WOTWebApp.Models.Tank>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TankName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TankTier)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirePower)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Survivability)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mobility)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Concealment)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Spotting)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TankType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TankName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TankTier)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirePower)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Survivability)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mobility)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Concealment)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Spotting)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TankType.TankTypeId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nation.NationId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.TankId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.TankId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.TankId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

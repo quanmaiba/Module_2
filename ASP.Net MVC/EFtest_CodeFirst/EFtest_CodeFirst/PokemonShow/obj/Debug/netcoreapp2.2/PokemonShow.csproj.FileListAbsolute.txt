@@ -1,0 +1,16 @@
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonShow\bin\Debug\netcoreapp2.2\PokemonShow.deps.json
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonShow\bin\Debug\netcoreapp2.2\PokemonShow.runtimeconfig.json
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonShow\bin\Debug\netcoreapp2.2\PokemonShow.runtimeconfig.dev.json
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonShow\bin\Debug\netcoreapp2.2\PokemonShow.dll
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonShow\bin\Debug\netcoreapp2.2\PokemonShow.pdb
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonShow\bin\Debug\netcoreapp2.2\PokemonApp.Data.dll
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonShow\bin\Debug\netcoreapp2.2\PokemonApp.Domain.dll
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonShow\bin\Debug\netcoreapp2.2\PokemonApp.Data.pdb
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonShow\bin\Debug\netcoreapp2.2\PokemonApp.Domain.pdb
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonShow\obj\Debug\netcoreapp2.2\PokemonShow.csprojAssemblyReference.cache
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonShow\obj\Debug\netcoreapp2.2\PokemonShow.csproj.CoreCompileInputs.cache
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonShow\obj\Debug\netcoreapp2.2\PokemonShow.AssemblyInfoInputs.cache
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonShow\obj\Debug\netcoreapp2.2\PokemonShow.AssemblyInfo.cs
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonShow\obj\Debug\netcoreapp2.2\PokemonShow.csproj.CopyComplete
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonShow\obj\Debug\netcoreapp2.2\PokemonShow.dll
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonShow\obj\Debug\netcoreapp2.2\PokemonShow.pdb

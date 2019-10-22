@@ -1,0 +1,15 @@
+﻿@page
+@model RazorPageGameLol.Pages.SkillHeros.DetailModel
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h1>Detail @Model.SkillHero.NameSkillHero</h1>
+<h2>@Model.SkillHero.SkillHeroId</h2>
+<h2>@Model.SkillHero.NameSkillHero</h2>
+<h2>@Model.SkillHero.DescriptionSkinHero</h2>
+<h2>@Model.SkillHero.HeroID</h2>
+
+<a asp-page="./Edit">Edit</a>
+<a asp-page="./Index">Back List</a>
+

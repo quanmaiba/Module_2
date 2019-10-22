@@ -1,0 +1,47 @@
+﻿@model IEnumerable<GameLol.DoMain.SkinHero>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NameSkinHero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DescriptionSkinHero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HeroLol)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NameSkinHero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DescriptionSkinHero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeroLol.HeroID)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.SkinHeroID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.SkinHeroID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.SkinHeroID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

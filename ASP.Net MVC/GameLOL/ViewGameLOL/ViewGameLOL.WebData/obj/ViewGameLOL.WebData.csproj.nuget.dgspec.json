@@ -1,0 +1,212 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Module 2\\ASP.Net MVC\\GameLOL\\ViewGameLOL\\ViewGameLOL.WebData\\ViewGameLOL.WebData.csproj": {}
+  },
+  "projects": {
+    "D:\\Module 2\\ASP.Net MVC\\GameLOL\\ViewGameLOL\\GameLol.AppData\\GameLol.AppData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Module 2\\ASP.Net MVC\\GameLOL\\ViewGameLOL\\GameLol.AppData\\GameLol.AppData.csproj",
+        "projectName": "GameLol.AppData",
+        "projectPath": "D:\\Module 2\\ASP.Net MVC\\GameLOL\\ViewGameLOL\\GameLol.AppData\\GameLol.AppData.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "D:\\Module 2\\ASP.Net MVC\\GameLOL\\ViewGameLOL\\GameLol.AppData\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Module 2\\ASP.Net MVC\\GameLOL\\ViewGameLOL\\GameLol.DoMain\\GameLol.DoMain.csproj": {
+                "projectPath": "D:\\Module 2\\ASP.Net MVC\\GameLOL\\ViewGameLOL\\GameLol.DoMain\\GameLol.DoMain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.8, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Module 2\\ASP.Net MVC\\GameLOL\\ViewGameLOL\\GameLol.DoMain\\GameLol.DoMain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Module 2\\ASP.Net MVC\\GameLOL\\ViewGameLOL\\GameLol.DoMain\\GameLol.DoMain.csproj",
+        "projectName": "GameLol.DoMain",
+        "projectPath": "D:\\Module 2\\ASP.Net MVC\\GameLOL\\ViewGameLOL\\GameLol.DoMain\\GameLol.DoMain.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "D:\\Module 2\\ASP.Net MVC\\GameLOL\\ViewGameLOL\\GameLol.DoMain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Module 2\\ASP.Net MVC\\GameLOL\\ViewGameLOL\\ViewGameLOL.WebData\\ViewGameLOL.WebData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Module 2\\ASP.Net MVC\\GameLOL\\ViewGameLOL\\ViewGameLOL.WebData\\ViewGameLOL.WebData.csproj",
+        "projectName": "ViewGameLOL.WebData",
+        "projectPath": "D:\\Module 2\\ASP.Net MVC\\GameLOL\\ViewGameLOL\\ViewGameLOL.WebData\\ViewGameLOL.WebData.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "D:\\Module 2\\ASP.Net MVC\\GameLOL\\ViewGameLOL\\ViewGameLOL.WebData\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Module 2\\ASP.Net MVC\\GameLOL\\ViewGameLOL\\GameLol.AppData\\GameLol.AppData.csproj": {
+                "projectPath": "D:\\Module 2\\ASP.Net MVC\\GameLOL\\ViewGameLOL\\GameLol.AppData\\GameLol.AppData.csproj"
+              },
+              "D:\\Module 2\\ASP.Net MVC\\GameLOL\\ViewGameLOL\\GameLol.DoMain\\GameLol.DoMain.csproj": {
+                "projectPath": "D:\\Module 2\\ASP.Net MVC\\GameLOL\\ViewGameLOL\\GameLol.DoMain\\GameLol.DoMain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

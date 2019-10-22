@@ -1,0 +1,59 @@
+﻿@page "{id:int}"
+@model CursosCrudRazor.Pages.ListStudents.DetailModel
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<br />
+<h2 class="text-info">Detail</h2>
+@if (Model.Message != null)
+{
+    <div class="alert alert-warning alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="close">
+            <span aria-hidden="true"> &times;</span>
+        </button>
+        @Model.Message
+    </div>
+}
+<form>
+    <div class="container" style="padding:30px;">
+        <div class="form-group  ">
+            <div class="row ">
+                <div class="col-sm-2 ">
+                    <label>@Html.DisplayNameFor(m => Model.Student.Name)</label>
+                </div>
+                <div class="col-sm-4">
+                    <label>@Model.Student.Name</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2">
+                    <label>@Html.DisplayNameFor(m => Model.Student.Address)</label>
+                </div>
+                <div class="col-sm-4">
+                    <label> @Model.Student.Address</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2">
+                    <label>@Html.DisplayNameFor(m => @Model.Student.Skill)</label>
+                </div>
+                <div class="col-sm-4">
+                    <label> @Model.Student.Skill</label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-1">
+                <a asp-route-id="@Model.Student.Id" asp-page="AddOrEdit" class="text-success mr-2"><i class="fa fa-marker fa-lg"></i></a>
+            </div>
+            <div class="col-sm-1">
+                <a asp-page="Index" class="btn btn-outline-danger btn-sm btn-control ">Back</a>
+            </div>
+
+        </div>
+    </div>
+
+</form>
+

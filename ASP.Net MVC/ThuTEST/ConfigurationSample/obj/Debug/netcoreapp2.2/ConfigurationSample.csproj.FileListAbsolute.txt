@@ -1,0 +1,14 @@
+D:\Module 2\ASP.Net MVC\ThuTEST\ConfigurationSample\bin\Debug\netcoreapp2.2\ConfigurationSample.deps.json
+D:\Module 2\ASP.Net MVC\ThuTEST\ConfigurationSample\bin\Debug\netcoreapp2.2\ConfigurationSample.runtimeconfig.json
+D:\Module 2\ASP.Net MVC\ThuTEST\ConfigurationSample\bin\Debug\netcoreapp2.2\ConfigurationSample.runtimeconfig.dev.json
+D:\Module 2\ASP.Net MVC\ThuTEST\ConfigurationSample\bin\Debug\netcoreapp2.2\ConfigurationSample.dll
+D:\Module 2\ASP.Net MVC\ThuTEST\ConfigurationSample\bin\Debug\netcoreapp2.2\ConfigurationSample.pdb
+D:\Module 2\ASP.Net MVC\ThuTEST\ConfigurationSample\obj\Debug\netcoreapp2.2\ConfigurationSample.csprojAssemblyReference.cache
+D:\Module 2\ASP.Net MVC\ThuTEST\ConfigurationSample\obj\Debug\netcoreapp2.2\ConfigurationSample.csproj.CoreCompileInputs.cache
+D:\Module 2\ASP.Net MVC\ThuTEST\ConfigurationSample\obj\Debug\netcoreapp2.2\ConfigurationSample.RazorAssemblyInfo.cache
+D:\Module 2\ASP.Net MVC\ThuTEST\ConfigurationSample\obj\Debug\netcoreapp2.2\ConfigurationSample.RazorAssemblyInfo.cs
+D:\Module 2\ASP.Net MVC\ThuTEST\ConfigurationSample\obj\Debug\netcoreapp2.2\ConfigurationSample.AssemblyInfoInputs.cache
+D:\Module 2\ASP.Net MVC\ThuTEST\ConfigurationSample\obj\Debug\netcoreapp2.2\ConfigurationSample.AssemblyInfo.cs
+D:\Module 2\ASP.Net MVC\ThuTEST\ConfigurationSample\obj\Debug\netcoreapp2.2\ConfigurationSample.RazorTargetAssemblyInfo.cache
+D:\Module 2\ASP.Net MVC\ThuTEST\ConfigurationSample\obj\Debug\netcoreapp2.2\ConfigurationSample.dll
+D:\Module 2\ASP.Net MVC\ThuTEST\ConfigurationSample\obj\Debug\netcoreapp2.2\ConfigurationSample.pdb

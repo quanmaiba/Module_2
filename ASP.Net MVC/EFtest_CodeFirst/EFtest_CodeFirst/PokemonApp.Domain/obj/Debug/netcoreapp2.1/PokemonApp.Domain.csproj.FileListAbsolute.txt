@@ -1,0 +1,18 @@
+D:\C# project\EFtest_CodeFirst\PokemonApp.Domain\bin\Debug\netcoreapp2.1\PokemonApp.Domain.deps.json
+D:\C# project\EFtest_CodeFirst\PokemonApp.Domain\bin\Debug\netcoreapp2.1\PokemonApp.Domain.dll
+D:\C# project\EFtest_CodeFirst\PokemonApp.Domain\bin\Debug\netcoreapp2.1\PokemonApp.Domain.pdb
+D:\C# project\EFtest_CodeFirst\PokemonApp.Domain\obj\Debug\netcoreapp2.1\PokemonApp.Domain.csprojAssemblyReference.cache
+D:\C# project\EFtest_CodeFirst\PokemonApp.Domain\obj\Debug\netcoreapp2.1\PokemonApp.Domain.csproj.CoreCompileInputs.cache
+D:\C# project\EFtest_CodeFirst\PokemonApp.Domain\obj\Debug\netcoreapp2.1\PokemonApp.Domain.AssemblyInfoInputs.cache
+D:\C# project\EFtest_CodeFirst\PokemonApp.Domain\obj\Debug\netcoreapp2.1\PokemonApp.Domain.AssemblyInfo.cs
+D:\C# project\EFtest_CodeFirst\PokemonApp.Domain\obj\Debug\netcoreapp2.1\PokemonApp.Domain.dll
+D:\C# project\EFtest_CodeFirst\PokemonApp.Domain\obj\Debug\netcoreapp2.1\PokemonApp.Domain.pdb
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonApp.Domain\bin\Debug\netcoreapp2.1\PokemonApp.Domain.deps.json
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonApp.Domain\bin\Debug\netcoreapp2.1\PokemonApp.Domain.dll
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonApp.Domain\bin\Debug\netcoreapp2.1\PokemonApp.Domain.pdb
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonApp.Domain\obj\Debug\netcoreapp2.1\PokemonApp.Domain.csproj.CoreCompileInputs.cache
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonApp.Domain\obj\Debug\netcoreapp2.1\PokemonApp.Domain.AssemblyInfoInputs.cache
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonApp.Domain\obj\Debug\netcoreapp2.1\PokemonApp.Domain.AssemblyInfo.cs
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonApp.Domain\obj\Debug\netcoreapp2.1\PokemonApp.Domain.dll
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonApp.Domain\obj\Debug\netcoreapp2.1\PokemonApp.Domain.pdb
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonApp.Domain\obj\Debug\netcoreapp2.1\PokemonApp.Domain.csprojAssemblyReference.cache

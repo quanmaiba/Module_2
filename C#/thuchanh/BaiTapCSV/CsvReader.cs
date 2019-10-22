@@ -1,13 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 namespace BaiTapCSV
 {
     class CsvReader
-    {
-        private string name;
+    {       
         private string _csvFilePath;
+
+        private CsvReader reader;
+        private string region;
+        private Country country;
 
 
         public CsvReader(string csvFilePath)
@@ -67,19 +71,33 @@ namespace BaiTapCSV
         public Dictionary<string, Country> ReadallCountries()
         {
             Dictionary<string, Country> DictionaryCountries = new Dictionary<string, Country>();
-
+            Dictionary<string, List<Country>> DictionaryCountrie = new Dictionary<string, List<Country>>();
+            //List<Country> countries = ReadAllCountries();
             try
-
             {
                 string[] length = File.ReadAllLines(_csvFilePath);
                 using (StreamReader sr = new StreamReader(_csvFilePath))
                 {
                     sr.ReadLine();
+                    Country country = ConvertEtelement(sr.ReadLine());
+
                     for (int i = length.Length; i > 0; i--)
                     {
+                        if (DictionaryCountries.ContainsKey(country.Region))
+                        {
+                            //DictionaryCountries.Add(region, ConvertEtelement(sr.ReadLine()));
+                            DictionaryCountrie[country.Region].Add(country);
+                        }
+                        else
+                        {
+                            List<Country> countries = new List<Country> { country };                          
+                            DictionaryCountries.Add(region, ConvertEtelement(sr.ReadLine()));
+                        }
                         ConvertEtelement(sr.ReadLine());
-                        DictionaryCountries.Add(name, ConvertEtelement(sr.ReadLine()));
+                        DictionaryCountries.Add(region, ConvertEtelement(sr.ReadLine()));
+                       
                     }
+
                 }
             }
             catch
@@ -96,17 +114,17 @@ namespace BaiTapCSV
             //Country country = new Country();        
             string[] chars = RemoteChar(line).Split(",");
             int indx = 0;
-
+            string name;
             if (chars.Length > 4)
             {
-                name = chars[indx++] + chars[indx++];
+               name = chars[indx++] + chars[indx++];
             }
             else
             {
                 name = chars[indx++];
             }
 
-            string code = chars[indx++];
+            string  code = chars[indx++];
             string region = chars[indx++];
             int population;
             try
@@ -122,7 +140,7 @@ namespace BaiTapCSV
         }
         public string RemoteChar(string chars)
         {
-            var remotechar = new string[] { ".", "@", "/", "'", ";", "\"" };
+            var remotechar = new string[] {"@", "/", "'", ";", "\"" };
             for (int i = 0; i < remotechar.Length; i++)
             {
                 chars = chars.Replace(remotechar[i], String.Empty);
@@ -162,20 +180,21 @@ namespace BaiTapCSV
             Console.WriteLine("Enter Number Show: ");
             int counts = Check();
             var arr = ReadAllCountries();
+            
           
-            foreach (var item in arr)
+            foreach (var item in arr.OrderBy(x=>x.Name).Take(10))
             {
                 Console.WriteLine($"{item.Population.ToString().PadRight(15)} : {item.Name.PadRight(20)}");
-                if ((dem++) % counts == 0)
-                {
-                    Console.WriteLine("SHow ?");
-                    string str = Console.ReadLine();
-                    if (str != "")
-                    {
-                        return;
-                    }
+                //if (dem++ % counts == 0)
+                //{
+                //    Console.WriteLine("SHow ?");
+                //    string str = Console.ReadLine();
+                //    if (str != "")
+                //    {
+                //        return;
+                //    }
 
-                }
+                //}
 
             }
         }
@@ -188,17 +207,19 @@ namespace BaiTapCSV
             //arr.Sort();
             foreach (var item in arr)
             {
-                Console.WriteLine($"{item.Value.Population.ToString().PadRight(15)} : {item.Key.PadRight(20)}");
-                if ((dem++) % counts == 0)
-                {
-                    Console.WriteLine("SHow ?");
-                    string str = Console.ReadLine();
-                    if (str != "")
-                    {
-                        return;
-                    }
+                //Console.WriteLine($"{item.Value.Population.ToString().PadRight(15)} : {item.Value.Name.PadRight(20)}");
+                //if (dem++ % counts == 0)
+                //{
+                //    Console.WriteLine("SHow ?");
+                //    string str = Console.ReadLine();
+                //    if (str != "")
+                //    {
+                //        return;
+                //    }
 
-                }
+                //}
+                Console.WriteLine(arr[country.Region]);
+                
 
             }
         }

@@ -1,0 +1,10 @@
+C:\WOTProject\WoTWithCore\bin\Debug\netcoreapp2.2\WoTWithCore.deps.json
+C:\WOTProject\WoTWithCore\bin\Debug\netcoreapp2.2\WoTWithCore.runtimeconfig.json
+C:\WOTProject\WoTWithCore\bin\Debug\netcoreapp2.2\WoTWithCore.runtimeconfig.dev.json
+C:\WOTProject\WoTWithCore\bin\Debug\netcoreapp2.2\WoTWithCore.dll
+C:\WOTProject\WoTWithCore\bin\Debug\netcoreapp2.2\WoTWithCore.pdb
+C:\WOTProject\WoTWithCore\obj\Debug\netcoreapp2.2\WoTWithCore.AssemblyInfoInputs.cache
+C:\WOTProject\WoTWithCore\obj\Debug\netcoreapp2.2\WoTWithCore.AssemblyInfo.cs
+C:\WOTProject\WoTWithCore\obj\Debug\netcoreapp2.2\WoTWithCore.dll
+C:\WOTProject\WoTWithCore\obj\Debug\netcoreapp2.2\WoTWithCore.pdb
+C:\WOTProject\WoTWithCore\obj\Debug\netcoreapp2.2\WoTWithCore.csprojAssemblyReference.cache

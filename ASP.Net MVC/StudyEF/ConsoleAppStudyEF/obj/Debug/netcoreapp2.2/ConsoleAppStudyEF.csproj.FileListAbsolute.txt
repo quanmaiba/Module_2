@@ -1,0 +1,11 @@
+D:\Module 2\ASP.Net MVC\StudyEF\ConsoleAppStudyEF\bin\Debug\netcoreapp2.2\ConsoleAppStudyEF.deps.json
+D:\Module 2\ASP.Net MVC\StudyEF\ConsoleAppStudyEF\bin\Debug\netcoreapp2.2\ConsoleAppStudyEF.runtimeconfig.json
+D:\Module 2\ASP.Net MVC\StudyEF\ConsoleAppStudyEF\bin\Debug\netcoreapp2.2\ConsoleAppStudyEF.runtimeconfig.dev.json
+D:\Module 2\ASP.Net MVC\StudyEF\ConsoleAppStudyEF\bin\Debug\netcoreapp2.2\ConsoleAppStudyEF.dll
+D:\Module 2\ASP.Net MVC\StudyEF\ConsoleAppStudyEF\bin\Debug\netcoreapp2.2\ConsoleAppStudyEF.pdb
+D:\Module 2\ASP.Net MVC\StudyEF\ConsoleAppStudyEF\obj\Debug\netcoreapp2.2\ConsoleAppStudyEF.csprojAssemblyReference.cache
+D:\Module 2\ASP.Net MVC\StudyEF\ConsoleAppStudyEF\obj\Debug\netcoreapp2.2\ConsoleAppStudyEF.csproj.CoreCompileInputs.cache
+D:\Module 2\ASP.Net MVC\StudyEF\ConsoleAppStudyEF\obj\Debug\netcoreapp2.2\ConsoleAppStudyEF.AssemblyInfoInputs.cache
+D:\Module 2\ASP.Net MVC\StudyEF\ConsoleAppStudyEF\obj\Debug\netcoreapp2.2\ConsoleAppStudyEF.AssemblyInfo.cs
+D:\Module 2\ASP.Net MVC\StudyEF\ConsoleAppStudyEF\obj\Debug\netcoreapp2.2\ConsoleAppStudyEF.dll
+D:\Module 2\ASP.Net MVC\StudyEF\ConsoleAppStudyEF\obj\Debug\netcoreapp2.2\ConsoleAppStudyEF.pdb

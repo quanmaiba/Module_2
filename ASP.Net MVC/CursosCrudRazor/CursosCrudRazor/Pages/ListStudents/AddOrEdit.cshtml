@@ -1,0 +1,67 @@
+﻿@page "{id:int}"
+@model CursosCrudRazor.Pages.ListStudents.AddOrEditModel
+@{
+    ViewData["Title"] = "Create";
+}
+
+<br />
+<h2 class="text-info" >Create New Student</h2>
+<div class="border">
+    <form method="post">
+        <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+        <input type="hidden" asp-for="Student.Id" />
+        <div class="container" style="padding:30px;">
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label asp-for="Student.Name"></label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input asp-for="Student.Name" class="form-control" />
+                    </div>
+                    <span asp-validation-for="Student.Name" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label asp-for="Student.Address"></label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input asp-for="Student.Address" class="form-control" />
+                    </div>
+                    <span asp-validation-for="Student.Address" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label asp-for="Student.Skill"></label>
+                    </div>
+                    <div class="col-sm-4">
+                        @*<input asp-for="Student.Address" class="form-control" />*@
+                        <select asp-for="Student.Skill" asp-items="@ViewBag.Skill" class="form-control"></select>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-2 offset-sm-2">
+                        <input type="submit" value="Submit" class="btn btn-outline-primary form-control" />
+                    </div>
+                    <div class="col-sm-2">
+                        <a asp-page="Index" class="btn btn-outline-danger form-control">Cancel</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+

@@ -1,0 +1,14 @@
+D:\Module 2\ASP.Net MVC\ThuVienEFCore\ThuVien.AppData\bin\Debug\netcoreapp2.2\ThuVien.AppData.deps.json
+D:\Module 2\ASP.Net MVC\ThuVienEFCore\ThuVien.AppData\bin\Debug\netcoreapp2.2\ThuVien.AppData.runtimeconfig.json
+D:\Module 2\ASP.Net MVC\ThuVienEFCore\ThuVien.AppData\bin\Debug\netcoreapp2.2\ThuVien.AppData.runtimeconfig.dev.json
+D:\Module 2\ASP.Net MVC\ThuVienEFCore\ThuVien.AppData\bin\Debug\netcoreapp2.2\ThuVien.AppData.dll
+D:\Module 2\ASP.Net MVC\ThuVienEFCore\ThuVien.AppData\bin\Debug\netcoreapp2.2\ThuVien.AppData.pdb
+D:\Module 2\ASP.Net MVC\ThuVienEFCore\ThuVien.AppData\bin\Debug\netcoreapp2.2\ThuVien.DoMain.dll
+D:\Module 2\ASP.Net MVC\ThuVienEFCore\ThuVien.AppData\bin\Debug\netcoreapp2.2\ThuVien.DoMain.pdb
+D:\Module 2\ASP.Net MVC\ThuVienEFCore\ThuVien.AppData\obj\Debug\netcoreapp2.2\ThuVien.AppData.csprojAssemblyReference.cache
+D:\Module 2\ASP.Net MVC\ThuVienEFCore\ThuVien.AppData\obj\Debug\netcoreapp2.2\ThuVien.AppData.csproj.CoreCompileInputs.cache
+D:\Module 2\ASP.Net MVC\ThuVienEFCore\ThuVien.AppData\obj\Debug\netcoreapp2.2\ThuVien.AppData.AssemblyInfoInputs.cache
+D:\Module 2\ASP.Net MVC\ThuVienEFCore\ThuVien.AppData\obj\Debug\netcoreapp2.2\ThuVien.AppData.AssemblyInfo.cs
+D:\Module 2\ASP.Net MVC\ThuVienEFCore\ThuVien.AppData\obj\Debug\netcoreapp2.2\ThuVien.AppData.csproj.CopyComplete
+D:\Module 2\ASP.Net MVC\ThuVienEFCore\ThuVien.AppData\obj\Debug\netcoreapp2.2\ThuVien.AppData.dll
+D:\Module 2\ASP.Net MVC\ThuVienEFCore\ThuVien.AppData\obj\Debug\netcoreapp2.2\ThuVien.AppData.pdb

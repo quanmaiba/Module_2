@@ -1,0 +1,9 @@
+D:\Module 2\ASP.Net MVC\CompanyApp\Company.Core\bin\Debug\netcoreapp2.2\CompanyC7.Core.deps.json
+D:\Module 2\ASP.Net MVC\CompanyApp\Company.Core\bin\Debug\netcoreapp2.2\CompanyC7.Core.dll
+D:\Module 2\ASP.Net MVC\CompanyApp\Company.Core\bin\Debug\netcoreapp2.2\CompanyC7.Core.pdb
+D:\Module 2\ASP.Net MVC\CompanyApp\Company.Core\obj\Debug\netcoreapp2.2\CompanyC7.Core.csproj.CoreCompileInputs.cache
+D:\Module 2\ASP.Net MVC\CompanyApp\Company.Core\obj\Debug\netcoreapp2.2\CompanyC7.Core.AssemblyInfoInputs.cache
+D:\Module 2\ASP.Net MVC\CompanyApp\Company.Core\obj\Debug\netcoreapp2.2\CompanyC7.Core.AssemblyInfo.cs
+D:\Module 2\ASP.Net MVC\CompanyApp\Company.Core\obj\Debug\netcoreapp2.2\CompanyC7.Core.dll
+D:\Module 2\ASP.Net MVC\CompanyApp\Company.Core\obj\Debug\netcoreapp2.2\CompanyC7.Core.pdb
+D:\Module 2\ASP.Net MVC\CompanyApp\Company.Core\obj\Debug\netcoreapp2.2\CompanyC7.Core.csprojAssemblyReference.cache

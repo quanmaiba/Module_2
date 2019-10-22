@@ -1,0 +1,8 @@
+D:\Module 2\DataBase\SchoolManagement\Student\bin\Debug\netcoreapp2.2\Student.deps.json
+D:\Module 2\DataBase\SchoolManagement\Student\bin\Debug\netcoreapp2.2\Student.runtimeconfig.json
+D:\Module 2\DataBase\SchoolManagement\Student\bin\Debug\netcoreapp2.2\Student.runtimeconfig.dev.json
+D:\Module 2\DataBase\SchoolManagement\Student\bin\Debug\netcoreapp2.2\Student.dll
+D:\Module 2\DataBase\SchoolManagement\Student\obj\Debug\netcoreapp2.2\Student.csproj.CoreCompileInputs.cache
+D:\Module 2\DataBase\SchoolManagement\Student\obj\Debug\netcoreapp2.2\Student.AssemblyInfoInputs.cache
+D:\Module 2\DataBase\SchoolManagement\Student\obj\Debug\netcoreapp2.2\Student.AssemblyInfo.cs
+D:\Module 2\DataBase\SchoolManagement\Student\obj\Debug\netcoreapp2.2\Student.csprojAssemblyReference.cache

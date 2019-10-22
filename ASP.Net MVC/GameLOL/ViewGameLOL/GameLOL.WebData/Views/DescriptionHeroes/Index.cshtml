@@ -1,0 +1,49 @@
+﻿@model IEnumerable<GameLol.DoMain.DescriptionHero>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NameDescriptionHero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DescriptionOfHero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HeroLol)
+            </th>
+            <th>
+                <a asp-action="AddOrEdit" class="btn btn-outline-success"><i class=" far fa-plus-square"> Description</i></a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NameDescriptionHero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DescriptionOfHero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeroLol.NameHero)
+            </td>
+            <td>
+                <a asp-action="AddOrEdit" asp-route-id="@item.DescriptionHeroID"><i class="fa fa-marker fa-lg"></i></a> |
+                <a asp-action="Details" asp-route-id="@item.DescriptionHeroID" class="text-lowercase" > <i class="fa fa-search"></i></a> |
+                <a asp-action="Delete" asp-route-id="@item.DescriptionHeroID" class="text-danger ml-1" onclick="return confirm('Are you sure to delete this record?')">
+                    <i class="fa fa-trash-alt fa-lg"></i>
+                </a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

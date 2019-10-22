@@ -1,0 +1,18 @@
+﻿@model StudentsListViewModel
+
+
+@{
+    ViewData["Title"] = "List";
+}
+
+<section class="py-5">
+    <div class="container">
+        <h2 class="mb-5 text-center">@Model.CurrentGroup</h2>
+        <div class="card-deck">
+            @foreach (var student in Model.Students)
+            {
+                <partial name="_StudentCard" model="student" />
+            }
+        </div>
+    </div>
+</section>

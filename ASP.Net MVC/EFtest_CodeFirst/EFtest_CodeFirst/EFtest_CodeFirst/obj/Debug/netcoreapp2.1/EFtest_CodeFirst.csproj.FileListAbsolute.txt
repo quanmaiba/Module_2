@@ -1,0 +1,22 @@
+D:\C# project\EFtest_CodeFirst\EFtest_CodeFirst\bin\Debug\netcoreapp2.1\EFtest_CodeFirst.deps.json
+D:\C# project\EFtest_CodeFirst\EFtest_CodeFirst\bin\Debug\netcoreapp2.1\EFtest_CodeFirst.runtimeconfig.json
+D:\C# project\EFtest_CodeFirst\EFtest_CodeFirst\bin\Debug\netcoreapp2.1\EFtest_CodeFirst.runtimeconfig.dev.json
+D:\C# project\EFtest_CodeFirst\EFtest_CodeFirst\bin\Debug\netcoreapp2.1\EFtest_CodeFirst.dll
+D:\C# project\EFtest_CodeFirst\EFtest_CodeFirst\obj\Debug\netcoreapp2.1\EFtest_CodeFirst.csprojAssemblyReference.cache
+D:\C# project\EFtest_CodeFirst\EFtest_CodeFirst\obj\Debug\netcoreapp2.1\EFtest_CodeFirst.csproj.CoreCompileInputs.cache
+D:\C# project\EFtest_CodeFirst\EFtest_CodeFirst\obj\Debug\netcoreapp2.1\EFtest_CodeFirst.AssemblyInfoInputs.cache
+D:\C# project\EFtest_CodeFirst\EFtest_CodeFirst\obj\Debug\netcoreapp2.1\EFtest_CodeFirst.AssemblyInfo.cs
+D:\C# project\EFtest_CodeFirst\EFtest_CodeFirst\bin\Debug\netcoreapp2.1\EFtest_CodeFirst.pdb
+D:\C# project\EFtest_CodeFirst\EFtest_CodeFirst\obj\Debug\netcoreapp2.1\EFtest_CodeFirst.dll
+D:\C# project\EFtest_CodeFirst\EFtest_CodeFirst\obj\Debug\netcoreapp2.1\EFtest_CodeFirst.pdb
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\EFtest_CodeFirst\bin\Debug\netcoreapp2.1\EFtest_CodeFirst.deps.json
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\EFtest_CodeFirst\bin\Debug\netcoreapp2.1\EFtest_CodeFirst.runtimeconfig.json
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\EFtest_CodeFirst\bin\Debug\netcoreapp2.1\EFtest_CodeFirst.runtimeconfig.dev.json
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\EFtest_CodeFirst\bin\Debug\netcoreapp2.1\EFtest_CodeFirst.dll
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\EFtest_CodeFirst\bin\Debug\netcoreapp2.1\EFtest_CodeFirst.pdb
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\EFtest_CodeFirst\obj\Debug\netcoreapp2.1\EFtest_CodeFirst.csprojAssemblyReference.cache
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\EFtest_CodeFirst\obj\Debug\netcoreapp2.1\EFtest_CodeFirst.csproj.CoreCompileInputs.cache
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\EFtest_CodeFirst\obj\Debug\netcoreapp2.1\EFtest_CodeFirst.AssemblyInfoInputs.cache
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\EFtest_CodeFirst\obj\Debug\netcoreapp2.1\EFtest_CodeFirst.AssemblyInfo.cs
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\EFtest_CodeFirst\obj\Debug\netcoreapp2.1\EFtest_CodeFirst.dll
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\EFtest_CodeFirst\obj\Debug\netcoreapp2.1\EFtest_CodeFirst.pdb

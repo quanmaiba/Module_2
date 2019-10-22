@@ -1,0 +1,40 @@
+﻿@page
+@model WoTWithBs4.Pages.Wot.TankModel
+@{
+    ViewData["Title"] = "Tank";
+}
+
+<h1 class="display-1">Tank</h1>
+<form class="mb-3" method="get">
+    <div class="input-group">
+        <input type="type" asp-for="SearchKeyword" />
+        <button class="btn bg-secondary">Search <i class="fa fa-search" style="font-size:20px"></i></button>
+    </div>
+</form>
+
+<table class="table table-dark">
+    @foreach (var tank in Model.Tanks)
+    {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => tank.TankId)
+        </td>
+        <td>
+            @tank.TankName
+        </td>
+        <td>
+            @tank.TankTier
+        </td>
+        <td>
+            @tank.FirePower
+        </td>
+        <td>
+            @tank.Survivability
+        </td>
+        <td>
+            <a class="btn btn-light" asp-page="./Detail" asp-route-tankId="@tank.TankId"><i class="fa fa-search-plus"></i></a>
+        </td>
+    </tr> 
+    }
+</table>
+

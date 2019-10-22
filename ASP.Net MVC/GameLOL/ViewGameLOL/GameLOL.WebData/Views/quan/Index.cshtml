@@ -1,0 +1,55 @@
+﻿@{
+    Layout = null;
+}
+@{
+    ViewData["Title"] = "Anh quân";
+}
+@*@model  List<quan>*@
+@using GameLOL.WebData.Models
+@*@model GameLOL.WebData.Models.quan;*@
+@model IEnumerable<GameLOL.WebData.Models.quan>
+@{
+    string abc = "<script>alert('Anh quan Vip Nhat');</script>";
+}
+    <h1>Index</h1>
+    @*<head>
+        <environment include=""></environment>
+        @RenderSection("quan",false)
+    </head>*@
+@foreach (var item in Model)
+{
+    @item.Khuyenmai
+}
+
+@*<p>@Model.Message</p>*@
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                    @Html.Raw(abc)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @*@Html.DisplayFor(modelItem => item.Id)*@
+                        @item.Name
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Name">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Avalible.">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Price">Delete</a>
+                        <a asp-action="Delete" asp-route-id="@item.Khuyenmai">Delete</a>
+                    </td>
+                </tr>
+            }
+    </table>
+
+</body>
+

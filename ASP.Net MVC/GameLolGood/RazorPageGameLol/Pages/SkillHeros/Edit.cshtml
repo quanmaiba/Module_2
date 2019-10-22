@@ -1,0 +1,35 @@
+﻿@page
+@model RazorPageGameLol.Pages.SkillHeros.EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<form method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="SkillHero.SkillHeroId" />
+
+    <div class="form-group">
+        <label asp-for="SkillHero.NameSkillHero"></label>
+        <input asp-for="SkillHero.NameSkillHero" />
+        <span class="text-danger" asp-validation-for="SkillHero.NameSkillHero"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SkillHero.DescriptionSkinHero"></label>
+        <input asp-for="SkillHero.DescriptionSkinHero" />
+        <span class="text-danger" asp-validation-for="SkillHero.DescriptionSkinHero"></span>
+
+    </div>
+    <div class="form-group">
+        <label asp-for="SkillHero.HeroLol.NameHero"></label>
+        <input asp-for="SkillHero.HeroID" />
+        <span class="text-danger" asp-validation-for="SkillHero.HeroID"></span>
+
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>

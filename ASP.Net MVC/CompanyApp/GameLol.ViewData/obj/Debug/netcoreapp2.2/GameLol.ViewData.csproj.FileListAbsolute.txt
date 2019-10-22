@@ -1,0 +1,8 @@
+D:\Module 2\ASP.Net MVC\CompanyApp\GameLol.ViewData\bin\Debug\netcoreapp2.2\GameLol.ViewData.deps.json
+D:\Module 2\ASP.Net MVC\CompanyApp\GameLol.ViewData\bin\Debug\netcoreapp2.2\GameLol.ViewData.dll
+D:\Module 2\ASP.Net MVC\CompanyApp\GameLol.ViewData\bin\Debug\netcoreapp2.2\GameLol.ViewData.pdb
+D:\Module 2\ASP.Net MVC\CompanyApp\GameLol.ViewData\obj\Debug\netcoreapp2.2\GameLol.ViewData.csproj.CoreCompileInputs.cache
+D:\Module 2\ASP.Net MVC\CompanyApp\GameLol.ViewData\obj\Debug\netcoreapp2.2\GameLol.ViewData.AssemblyInfoInputs.cache
+D:\Module 2\ASP.Net MVC\CompanyApp\GameLol.ViewData\obj\Debug\netcoreapp2.2\GameLol.ViewData.AssemblyInfo.cs
+D:\Module 2\ASP.Net MVC\CompanyApp\GameLol.ViewData\obj\Debug\netcoreapp2.2\GameLol.ViewData.dll
+D:\Module 2\ASP.Net MVC\CompanyApp\GameLol.ViewData\obj\Debug\netcoreapp2.2\GameLol.ViewData.pdb

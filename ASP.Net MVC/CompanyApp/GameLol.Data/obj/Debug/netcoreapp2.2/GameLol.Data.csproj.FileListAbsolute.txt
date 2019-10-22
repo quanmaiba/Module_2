@@ -1,0 +1,12 @@
+D:\Module 2\ASP.Net MVC\CompanyApp\GameLol.Data\bin\Debug\netcoreapp2.2\GameLol.Data.deps.json
+D:\Module 2\ASP.Net MVC\CompanyApp\GameLol.Data\bin\Debug\netcoreapp2.2\GameLol.Data.dll
+D:\Module 2\ASP.Net MVC\CompanyApp\GameLol.Data\bin\Debug\netcoreapp2.2\GameLol.Data.pdb
+D:\Module 2\ASP.Net MVC\CompanyApp\GameLol.Data\bin\Debug\netcoreapp2.2\GameLol.Core.dll
+D:\Module 2\ASP.Net MVC\CompanyApp\GameLol.Data\bin\Debug\netcoreapp2.2\GameLol.Core.pdb
+D:\Module 2\ASP.Net MVC\CompanyApp\GameLol.Data\obj\Debug\netcoreapp2.2\GameLol.Data.csprojAssemblyReference.cache
+D:\Module 2\ASP.Net MVC\CompanyApp\GameLol.Data\obj\Debug\netcoreapp2.2\GameLol.Data.csproj.CoreCompileInputs.cache
+D:\Module 2\ASP.Net MVC\CompanyApp\GameLol.Data\obj\Debug\netcoreapp2.2\GameLol.Data.AssemblyInfoInputs.cache
+D:\Module 2\ASP.Net MVC\CompanyApp\GameLol.Data\obj\Debug\netcoreapp2.2\GameLol.Data.AssemblyInfo.cs
+D:\Module 2\ASP.Net MVC\CompanyApp\GameLol.Data\obj\Debug\netcoreapp2.2\GameLol.Data.csproj.CopyComplete
+D:\Module 2\ASP.Net MVC\CompanyApp\GameLol.Data\obj\Debug\netcoreapp2.2\GameLol.Data.dll
+D:\Module 2\ASP.Net MVC\CompanyApp\GameLol.Data\obj\Debug\netcoreapp2.2\GameLol.Data.pdb

@@ -1,0 +1,11 @@
+CREATE TABLE ChiNhanh
+(
+	ChiNhanhID INT IDENTITY(1,1),
+	TenChiNhanh NVARCHAR(30),
+	QuanLyID INT NOT NULL,
+	NgayBatDau DATE,
+	PRIMARY KEY(ChiNhanhID)
+	
+);
+ALTER TABLE dbo.ChiNhanh ADD FOREIGN KEY(QuanLyID) REFERENCES dbo.NhanVien(NhanVienID);
+ALTER TABLE dbo.NhanVien ADD FOREIGN KEY (ChiNhanhID) REFERENCES dbo.ChiNhanh(ChiNhanhID);

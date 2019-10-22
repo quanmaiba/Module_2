@@ -15,7 +15,7 @@ namespace BaiTapCSV
             //int count = Check();
             //reader.Show(217);
             //reader.ShowList();
-            reader.ShowDictionary();
+           reader.ShowDictionary();
         }
 
 

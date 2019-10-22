@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@*<div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>
+
+    <h2>Anhquaan</h2>*@
+@section scripts{
+    <script src="~/js/mustache.min.js"></script>
+    <script src="~/js/homeController.js"></script>
+}
+<table >
+    <thead>
+        <tr>
+            <td>ID</td>
+            <td>Name</td>
+            <td>Salary</td>
+            <td>Status</td>
+        </tr>
+    </thead>
+    <tbody id="tblData">
+    </tbody>
+</table>
+<script id="data-template" type="x-tmpl-mustache">
+    @*Hello{{name}}!*@
+    <tr>
+        <td>{{ID}}</td>
+        <td>{{name}}</td>
+        <td>{{Salary}}</td>
+        <td>{{Status}}</td>
+    </tr>
+
+</script>

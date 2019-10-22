@@ -1,0 +1,14 @@
+D:\Module 2\ASP.Net MVC\GameLOL\ViewGameLOL\ApiTodo\bin\Debug\netcoreapp2.2\ApiTodo.deps.json
+D:\Module 2\ASP.Net MVC\GameLOL\ViewGameLOL\ApiTodo\bin\Debug\netcoreapp2.2\ApiTodo.runtimeconfig.json
+D:\Module 2\ASP.Net MVC\GameLOL\ViewGameLOL\ApiTodo\bin\Debug\netcoreapp2.2\ApiTodo.runtimeconfig.dev.json
+D:\Module 2\ASP.Net MVC\GameLOL\ViewGameLOL\ApiTodo\bin\Debug\netcoreapp2.2\ApiTodo.dll
+D:\Module 2\ASP.Net MVC\GameLOL\ViewGameLOL\ApiTodo\bin\Debug\netcoreapp2.2\ApiTodo.pdb
+D:\Module 2\ASP.Net MVC\GameLOL\ViewGameLOL\ApiTodo\obj\Debug\netcoreapp2.2\ApiTodo.csprojAssemblyReference.cache
+D:\Module 2\ASP.Net MVC\GameLOL\ViewGameLOL\ApiTodo\obj\Debug\netcoreapp2.2\ApiTodo.csproj.CoreCompileInputs.cache
+D:\Module 2\ASP.Net MVC\GameLOL\ViewGameLOL\ApiTodo\obj\Debug\netcoreapp2.2\ApiTodo.RazorAssemblyInfo.cache
+D:\Module 2\ASP.Net MVC\GameLOL\ViewGameLOL\ApiTodo\obj\Debug\netcoreapp2.2\ApiTodo.RazorAssemblyInfo.cs
+D:\Module 2\ASP.Net MVC\GameLOL\ViewGameLOL\ApiTodo\obj\Debug\netcoreapp2.2\ApiTodo.AssemblyInfoInputs.cache
+D:\Module 2\ASP.Net MVC\GameLOL\ViewGameLOL\ApiTodo\obj\Debug\netcoreapp2.2\ApiTodo.AssemblyInfo.cs
+D:\Module 2\ASP.Net MVC\GameLOL\ViewGameLOL\ApiTodo\obj\Debug\netcoreapp2.2\ApiTodo.RazorTargetAssemblyInfo.cache
+D:\Module 2\ASP.Net MVC\GameLOL\ViewGameLOL\ApiTodo\obj\Debug\netcoreapp2.2\ApiTodo.dll
+D:\Module 2\ASP.Net MVC\GameLOL\ViewGameLOL\ApiTodo\obj\Debug\netcoreapp2.2\ApiTodo.pdb

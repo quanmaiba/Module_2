@@ -1,0 +1,8 @@
+C:\WOTProject\WotWithData\bin\Debug\netcoreapp3.0\WotWithData.deps.json
+C:\WOTProject\WotWithData\bin\Debug\netcoreapp3.0\WotWithData.dll
+C:\WOTProject\WotWithData\bin\Debug\netcoreapp3.0\WotWithData.pdb
+C:\WOTProject\WotWithData\obj\Debug\netcoreapp3.0\WotWithData.csprojAssemblyReference.cache
+C:\WOTProject\WotWithData\obj\Debug\netcoreapp3.0\WotWithData.AssemblyInfoInputs.cache
+C:\WOTProject\WotWithData\obj\Debug\netcoreapp3.0\WotWithData.AssemblyInfo.cs
+C:\WOTProject\WotWithData\obj\Debug\netcoreapp3.0\WotWithData.dll
+C:\WOTProject\WotWithData\obj\Debug\netcoreapp3.0\WotWithData.pdb

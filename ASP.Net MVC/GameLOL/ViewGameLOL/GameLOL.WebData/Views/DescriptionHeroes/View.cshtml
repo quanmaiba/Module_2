@@ -1,0 +1,48 @@
+﻿@model IEnumerable<GameLol.DoMain.DescriptionHero>
+
+@{
+    ViewData["Title"] = "View";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>View</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NameDescriptionHero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DescriptionOfHero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HeroLol)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NameDescriptionHero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DescriptionOfHero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeroLol.NameHero)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.DescriptionHeroID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.DescriptionHeroID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.DescriptionHeroID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

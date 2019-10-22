@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@*@using MVCCoreApp.Models;*@
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<a href="Home/Create"> Create</a>
+@{ 
+
+}
+
+@model Customer
+@{
+//Customer customer = new Customer();
+    <p>Id: @Model.CustomerID</p>
+    <p>Name: @Model.Name</p>
+    <p>Address: @Model.Address</p>
+}
+
+@{ var mes = "xinchao";}
+
+@{var data = DateTime.Now; }
+
+<p> @mes</p>
+<p>This is date:  @data</p>
+
+@{
+    <p>HeLlo from the Code block</p>
+    @: HeLlo from the Code block
+}
+<span>@Html.Raw(mes)</span>
+@model ErrorViewModel
+
+<from actions="/home/create" method="post">
+    <label for=" @Model">Name</label>
+    <input type=" text" name="@Model" />
+    <input type="hidden" name="@Model" />
+</from>
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@removeTagHelper ScriptTagHelper,Microsoft.AspNetCore.Mvc.TagHelpers
+
+@removeTagHelper "*,Microsoft.AspNetCore.Mvc.TagHelpers"
+
+@{
+    Layout = "~/View/Shared/_Layout.cshtml";
+
+}
+<h2>About Us</h2>
+
+@{
+    Layout = "_Layout";
+}
+<p>here goes the content</p>
+@section Test
+{
+    <p>Test Seclection</p>
+}

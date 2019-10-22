@@ -1,0 +1,108 @@
+﻿@model MVCStudent.ViewModel.StudentsEditViewModel
+@*@model  MVCStudent.Models.Student*@
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var group = new List<Group>();
+    group = ViewBag.Hero;
+    var photoPath = "~/Images/" + (Model.ExistingPhotoPath ?? "anh1.png");
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <form enctype="multipart/form-data" asp-action="Edit" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"> </div>
+            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="ExistingPhotoPath" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            @*<div class="form-group">
+                    <label asp-for="Student.UrlImage" class="control-label"></label>
+                    <input asp-for="Student.UrlImage" class="form-control" />
+                    <span asp-validation-for="Student.UrlImage" class="text-danger"></span>
+                </div>*@
+            <div class="form-group">
+                <label asp-for="History" class="control-label"></label>
+                <input asp-for="History" class="form-control" />
+                <span asp-validation-for="History" class="text-danger"></span>
+            </div>
+
+
+            <fieldset class="form-group">
+                <div class="row">
+                    <label asp-for="@Model.Sex" class="col-sm-2 col-form-label text-right"></label>
+
+                    <div class="col-md-5">
+                        Nam: @Html.RadioButton("Student.Sex", true)
+                        Nữ: @Html.RadioButton("Student.Sex", false)
+                    </div>
+                    <span asp-validation-for="History" class="text-danger"></span>
+
+
+                </div>
+            </fieldset>
+
+            <div class="form-group">
+                <label asp-for="GroupId" class="control-label"></label>
+                <select asp-for="GroupId" class="form-control" asp-items="Model.Groups"></select>
+                @*<select asp-for="Student.GroupId" class="form-control">
+                        @foreach (var hero in group)
+                        {
+                            <option value="@hero.GroupId">@hero.GroupName</option>
+                        }
+                    </select>*@
+
+            </div>
+            <div class="form-group row">
+                <label asp-for="Photos" class="col-sm-2 control-label"></label>
+                <div class="col-sm-10">
+                    <div class="custom-file">
+                        <input multiple asp-for="Photos" class="form-control custom-file-input" />
+                        <label class="custom-file-label">Click here to change Photo </label>
+                    </div>
+                    <span asp-validation-for="Photos" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group row col-sm-4 offset-4">
+                <img src="@photoPath" class="imageThumbnail" asp-append-version="true" />
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Update" class="btn btn-primary" />
+                <a asp-controller="Student" asp-action="Index" class="btn btn-primary">Cancel</a>
+            </div>
+            @section Scripts {
+                <script>
+                    $(document).ready(function)() {
+                        $('.custom-file-input').on("change", function () {
+                            var fileName = $(this).val().split("\\").pop();
+                            $(this).next('.custom-file-label').html(fileName);
+
+                            //var fileLabel = $(this).next('.custom-file-label');
+                            //var files = $(this)[0].files;
+                            //if (files.length > 1) {
+                            //    fileLabel.html(files.length + ' files selected')
+                            //}
+                            //else if (files.length == 1) {
+                            //    fileLabel.html(files[0].name);
+                            //}
+                        });
+                    });
+                </script>
+                @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+            }
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+

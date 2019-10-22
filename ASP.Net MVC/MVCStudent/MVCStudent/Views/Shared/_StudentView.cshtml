@@ -1,0 +1,31 @@
+﻿@model MVCStudent.Models.Student
+<tr>
+        <td>
+            @Html.DisplayFor(s => Model.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(s => Model.History)
+        </td>
+        <td>
+            @if (Model.Sex)
+            {
+                <i>Nam</i>
+            }
+            else
+            {
+                <i>Nữ</i>
+            }
+
+        </td>
+        <td>
+            @Html.DisplayFor(s => Model.Group.GroupName)
+
+        </td>
+        <td class="text-center">
+            <a asp-route-id="@Model.StudentId" asp-action="Edit" asp-controller="Student" class="text-success ml-2"><i class="fa fa-marker fa-lg"></i></a>
+            <a asp-action="Details" asp-controller="Student" asp-route-id="@Model.StudentId" class="text-info ml-2"><i class="fa fa-search-plus"></i></a>
+            <button asp-action="Delete" asp-controller="Student" asp-route-id="@Model.StudentId" class="text-danger ml-2" onclick="return confirm('Are you sure to delete this record?')">
+                <i class="fa fa-trash-alt fa-lg"></i>
+            </button>
+        </td>
+    </tr>

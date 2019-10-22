@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameLol.AppData", "GameLol.AppData\GameLol.AppData.csproj", "{129CE8D8-2D76-460D-A161-F3D8A55FD990}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameLol.DoMain", "GameLol.DoMain\GameLol.DoMain.csproj", "{CE1DB168-D148-43D4-8D3F-9184665BEC6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewGameLOL.WebData", "ViewGameLOL.WebData\ViewGameLOL.WebData.csproj", "{623C7EC8-4DA2-4029-A7B7-62427B583771}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameLOL.WebData", "GameLOL.WebData\GameLOL.WebData.csproj", "{53627D6D-3C21-4AC0-9B2C-3CA44EA5439C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{54F4A807-483D-474B-955F-60B2157AC7ED}"
+	ProjectSection(SolutionItems) = preProject
+		GameLOL.WebData\wwwroot\css\site.css = GameLOL.WebData\wwwroot\css\site.css
+		GameLOL.WebData\wwwroot\js\site.js = GameLOL.WebData\wwwroot\js\site.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder2", "NewFolder2", "{600609F6-A334-4FA2-95F0-B2C462D399B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTodo", "ApiTodo\ApiTodo.csproj", "{C102F693-0069-40DA-9DE9-815628C7560F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{129CE8D8-2D76-460D-A161-F3D8A55FD990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129CE8D8-2D76-460D-A161-F3D8A55FD990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129CE8D8-2D76-460D-A161-F3D8A55FD990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129CE8D8-2D76-460D-A161-F3D8A55FD990}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE1DB168-D148-43D4-8D3F-9184665BEC6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE1DB168-D148-43D4-8D3F-9184665BEC6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE1DB168-D148-43D4-8D3F-9184665BEC6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE1DB168-D148-43D4-8D3F-9184665BEC6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{623C7EC8-4DA2-4029-A7B7-62427B583771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{623C7EC8-4DA2-4029-A7B7-62427B583771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{623C7EC8-4DA2-4029-A7B7-62427B583771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{623C7EC8-4DA2-4029-A7B7-62427B583771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53627D6D-3C21-4AC0-9B2C-3CA44EA5439C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53627D6D-3C21-4AC0-9B2C-3CA44EA5439C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53627D6D-3C21-4AC0-9B2C-3CA44EA5439C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53627D6D-3C21-4AC0-9B2C-3CA44EA5439C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C102F693-0069-40DA-9DE9-815628C7560F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C102F693-0069-40DA-9DE9-815628C7560F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C102F693-0069-40DA-9DE9-815628C7560F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C102F693-0069-40DA-9DE9-815628C7560F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07556EA1-2A32-489D-B900-DD38AC46962B}
+	EndGlobalSection
+EndGlobal

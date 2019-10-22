@@ -1,0 +1,23 @@
+﻿@page
+@model CompanyApp.Pages.Company.ListModel
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>alo</h1>
+<table>
+   @foreach (var item in Model.Companies)
+   {
+    <tr>
+        <td>@item.Id</td>
+        <td>@item.Name</td>
+        <td>@item.Location</td>
+        <td>@item.CompanyType</td>
+    </tr>
+   }
+
+</table>
+<div>
+    @Model.Message
+</div>
+

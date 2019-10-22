@@ -1,0 +1,83 @@
+﻿@page
+@model RazorPage.Pages.QLSach.IndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<br />
+<div class="container row">
+    <div class=" col-6">
+        <h2 class="text-info">Danh Sach Quan Ly Sach</h2>
+    </div>
+
+</div>
+@if (Model.Message != null)
+{
+    <div class="alert alert-warning alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="close">
+            <span aria-hidden="true"> &times;</span>
+        </button>
+        @Model.Message
+    </div>
+}
+<form method="get" class="form-inline">
+    <div class="border badge-pill bs-popover-auto border-primary">
+        <div>
+            <input type="text" asp-for="SearchKeyWord" class=" badge-pill border-0" />
+            <button class="text-info btn btn-outline-light border-0">
+                <i class="fa fa-search "></i>
+            </button>
+        </div>
+    </div>
+</form>
+<form method="post">
+    @*@if (Model.Students.Count() > 0)*@
+    <br /><br />
+    <table class="table table-striped border">
+        <tr class="table-info ">
+            <th>
+                @*Name Student*@
+                @Html.DisplayNameFor(m => Model.QuanLySach.TenSach)
+            </th>
+            <th>
+                @Html.DisplayNameFor(m => Model.QuanLySach.TenTacGia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(m => Model.QuanLySach.NamSanXuat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(m => Model.QuanLySach.SoLuong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(m => Model.QuanLySach.TheLoais)
+            </th>
+            <th class="text-center">
+                <a asp-page="AddOrEdit" asp-route-id="0" asp class="btn btn-primary"><i class="far fa-plus-square"></i> Sach</a>
+            </th>
+
+        </tr>
+        @foreach (var item in Model.QuanLySaches)
+        {
+    <tr>
+        <td>@item.TenSach</td>
+        <td>@item.TenTacGia</td>
+        <td>@item.NamSanXuat</td>
+        <td>@item.SoLuong</td>
+        <td>@item.TheLoais</td>
+        <td class="text-center">
+            <a asp-route-id="@item.Id" asp-page="AddOrEdit" class="text-success ml-2"><i class="fa fa-marker fa-lg"></i></a>
+            <a asp-page="Detail" asp-route-id="@item.Id" class="text-info ml-2"><i class="fa fa-search-plus"></i></a>
+            <button asp-page-handler="Delete" asp-route-id="@item.Id" class="text-danger ml-2" onclick="return confirm('Are you sure to delete this record?')">
+                <i class="fa fa-trash-alt fa-lg"></i>
+            </button>
+        </td>
+    </tr>
+        }
+    </table>
+    @*}
+        else
+        {
+            <p>No Ok</p>
+        }*@
+
+</form>

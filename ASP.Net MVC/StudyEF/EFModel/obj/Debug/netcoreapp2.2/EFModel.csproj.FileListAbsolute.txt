@@ -1,0 +1,11 @@
+D:\Module 2\ASP.Net MVC\StudyEF\EFModel\bin\Debug\netcoreapp2.2\EFModel.deps.json
+D:\Module 2\ASP.Net MVC\StudyEF\EFModel\bin\Debug\netcoreapp2.2\EFModel.dll
+D:\Module 2\ASP.Net MVC\StudyEF\EFModel\obj\Debug\netcoreapp2.2\EFModel.csproj.CoreCompileInputs.cache
+D:\Module 2\ASP.Net MVC\StudyEF\EFModel\obj\Debug\netcoreapp2.2\EFModel.AssemblyInfoInputs.cache
+D:\Module 2\ASP.Net MVC\StudyEF\EFModel\obj\Debug\netcoreapp2.2\EFModel.AssemblyInfo.cs
+D:\Module 2\ASP.Net MVC\StudyEF\EFModel\obj\Debug\netcoreapp2.2\EFModel.csprojAssemblyReference.cache
+D:\Module 2\ASP.Net MVC\StudyEF\EFModel\bin\Debug\netcoreapp2.2\EFModel.runtimeconfig.json
+D:\Module 2\ASP.Net MVC\StudyEF\EFModel\bin\Debug\netcoreapp2.2\EFModel.runtimeconfig.dev.json
+D:\Module 2\ASP.Net MVC\StudyEF\EFModel\bin\Debug\netcoreapp2.2\EFModel.pdb
+D:\Module 2\ASP.Net MVC\StudyEF\EFModel\obj\Debug\netcoreapp2.2\EFModel.dll
+D:\Module 2\ASP.Net MVC\StudyEF\EFModel\obj\Debug\netcoreapp2.2\EFModel.pdb

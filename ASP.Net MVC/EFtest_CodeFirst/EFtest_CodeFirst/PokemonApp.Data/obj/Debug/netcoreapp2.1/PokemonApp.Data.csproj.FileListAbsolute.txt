@@ -1,0 +1,28 @@
+D:\C# project\EFtest_CodeFirst\PokemonApp.Data\bin\Debug\netcoreapp2.1\PokemonApp.Data.deps.json
+D:\C# project\EFtest_CodeFirst\PokemonApp.Data\bin\Debug\netcoreapp2.1\PokemonApp.Data.runtimeconfig.json
+D:\C# project\EFtest_CodeFirst\PokemonApp.Data\bin\Debug\netcoreapp2.1\PokemonApp.Data.runtimeconfig.dev.json
+D:\C# project\EFtest_CodeFirst\PokemonApp.Data\bin\Debug\netcoreapp2.1\PokemonApp.Data.dll
+D:\C# project\EFtest_CodeFirst\PokemonApp.Data\bin\Debug\netcoreapp2.1\PokemonApp.Data.pdb
+D:\C# project\EFtest_CodeFirst\PokemonApp.Data\bin\Debug\netcoreapp2.1\PokemonApp.Domain.dll
+D:\C# project\EFtest_CodeFirst\PokemonApp.Data\bin\Debug\netcoreapp2.1\PokemonApp.Domain.pdb
+D:\C# project\EFtest_CodeFirst\PokemonApp.Data\obj\Debug\netcoreapp2.1\PokemonApp.Data.csprojAssemblyReference.cache
+D:\C# project\EFtest_CodeFirst\PokemonApp.Data\obj\Debug\netcoreapp2.1\PokemonApp.Data.csproj.CoreCompileInputs.cache
+D:\C# project\EFtest_CodeFirst\PokemonApp.Data\obj\Debug\netcoreapp2.1\PokemonApp.Data.AssemblyInfoInputs.cache
+D:\C# project\EFtest_CodeFirst\PokemonApp.Data\obj\Debug\netcoreapp2.1\PokemonApp.Data.AssemblyInfo.cs
+D:\C# project\EFtest_CodeFirst\PokemonApp.Data\obj\Debug\netcoreapp2.1\PokemonApp.Data.csproj.CopyComplete
+D:\C# project\EFtest_CodeFirst\PokemonApp.Data\obj\Debug\netcoreapp2.1\PokemonApp.Data.dll
+D:\C# project\EFtest_CodeFirst\PokemonApp.Data\obj\Debug\netcoreapp2.1\PokemonApp.Data.pdb
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonApp.Data\bin\Debug\netcoreapp2.1\PokemonApp.Data.deps.json
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonApp.Data\bin\Debug\netcoreapp2.1\PokemonApp.Data.runtimeconfig.json
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonApp.Data\bin\Debug\netcoreapp2.1\PokemonApp.Data.runtimeconfig.dev.json
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonApp.Data\bin\Debug\netcoreapp2.1\PokemonApp.Data.dll
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonApp.Data\bin\Debug\netcoreapp2.1\PokemonApp.Data.pdb
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonApp.Data\bin\Debug\netcoreapp2.1\PokemonApp.Domain.dll
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonApp.Data\bin\Debug\netcoreapp2.1\PokemonApp.Domain.pdb
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonApp.Data\obj\Debug\netcoreapp2.1\PokemonApp.Data.csprojAssemblyReference.cache
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonApp.Data\obj\Debug\netcoreapp2.1\PokemonApp.Data.csproj.CoreCompileInputs.cache
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonApp.Data\obj\Debug\netcoreapp2.1\PokemonApp.Data.AssemblyInfoInputs.cache
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonApp.Data\obj\Debug\netcoreapp2.1\PokemonApp.Data.AssemblyInfo.cs
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonApp.Data\obj\Debug\netcoreapp2.1\PokemonApp.Data.csproj.CopyComplete
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonApp.Data\obj\Debug\netcoreapp2.1\PokemonApp.Data.dll
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\PokemonApp.Data\obj\Debug\netcoreapp2.1\PokemonApp.Data.pdb

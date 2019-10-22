@@ -1,0 +1,4 @@
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\Pokemon\obj\Debug\netcoreapp2.1\PokemonConsole.csprojAssemblyReference.cache
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\Pokemon\obj\Debug\netcoreapp2.1\PokemonConsole.csproj.CoreCompileInputs.cache
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\Pokemon\obj\Debug\netcoreapp2.1\PokemonConsole.AssemblyInfoInputs.cache
+D:\Module 2\ASP.Net MVC\EFtest_CodeFirst\EFtest_CodeFirst\Pokemon\obj\Debug\netcoreapp2.1\PokemonConsole.AssemblyInfo.cs
