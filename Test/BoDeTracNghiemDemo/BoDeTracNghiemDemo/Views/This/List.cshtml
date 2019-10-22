@@ -1,0 +1,89 @@
+﻿@model List<CauHoiThi>
+@{
+    ViewData["Title"] = "List";
+}
+
+
+<form method="post">
+
+    <div class="card">
+        <div class="card-header">
+            No roles create yet
+        </div>
+        <div class="card-body">
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                <div class="form-check m-1">
+                    <input type="hidden" asp-for="@Model[i].CauHoiId" />
+                    <div>
+                        <ul id="@Model[i].CauHoiId">
+                            <li class="quiz-section-title">
+                                @Model[i].CauHoi.TenCauHoi
+                            </li>
+                            <li class="list-item">
+                                <input type="radio" name="option-@Model[i].CauHoiId"> @Model[i].CauHoi.CauTraLoi1
+                            </li>
+                            <li class="list-item">
+                                <input type="radio" name="option-@Model[i].CauHoiId"> @Model[i].CauHoi.CauTraLoi2
+                            </li>
+                            <li class="list-item">
+                                <input type="radio" name="option-@Model[i].CauHoiId"> @Model[i].CauHoi.CauTraLoi3
+                            </li>
+                            <li class="list-item">
+                                <input type="radio" name="option-@Model[i].CauHoiId"> @Model[i].CauHoi.CauTraLoi4
+                            </li>
+                        </ul>
+                        <hr />
+                    </div>
+                    @*<input type="hidden" asp-for="@Model[i].UserName" />*@
+                    @*@Html.RadioButton("Model[i].CauHoi.CauTraLoi1", 1);
+                        @Html.RadioButton("Model[i].CauHoi.CauTraLoi2", 2);
+                        @Html.RadioButton("Model[i].CauHoi.CauTraLoi3", 3);
+                        @Html.RadioButton("Model[i].CauHoi.CauTraLoi4", 4);*@
+                    @*<input asp-for="@Model[i].CauHoi.CauTraLoi1" class="form-check-input" />
+                        <label class="form-check-label" asp-for="@Model[i].IsSelected">
+                            @Model[i].UserName
+                        </label>*@
+                </div>
+            }
+        </div>
+        <div class="card-footer">
+            <input class="btn btn-primary" type="submit" style="width:auto" value="Submit" />
+            @*<a asp-action="EditRole" asp-route-id="@roleId" class="btn btn-danger" style="width:auto">Cancel</a>*@
+        </div>
+    </div>
+</form>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+@*<div>
+        @foreach (var cauhoi in Model)
+        {
+            <form method="post">
+                <div>
+                    <div>  @cauhoi.CauHoi.TenCauHoi</div>
+
+
+                    <ul id="@cauhoi.CauHoi.TenCauHoi">
+                            <li class="quiz-section-title">
+
+                            </li>
+                            <li class="list-item">
+                                <input type="radio" name="option-@cauhoi.CauHoiId"> @cauhoi.CauHoi.CauTraLoi1
+                            </li>
+                            <li class="list-item">
+                                <input type="radio" name="option-@cauhoi.CauHoiId"> @cauhoi.CauHoi.CauTraLoi2
+                            </li>
+                            <li class="list-item">
+                                <input type="radio" name="option-@cauhoi.CauHoiId"> @cauhoi.CauHoi.CauTraLoi3
+                            </li>
+                            <li class="list-item">
+                                <input type="radio" name="option-@cauhoi.CauHoiId"> @cauhoi.CauHoi.CauTraLoi4
+                            </li>
+                        </ul>
+                    <hr />
+                </div>
+            </form>
+        }
+    </div>*@
+

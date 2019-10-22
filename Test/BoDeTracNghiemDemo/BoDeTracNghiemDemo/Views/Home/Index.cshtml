@@ -2,7 +2,53 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <style>
+        .container {
+            width: 500px;
+            margin: auto;
+            text-align: center;
+        }
+
+        p {
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Bai thi</h2>
+        <p id="demo"></p>
+    </div>
+    <script>
+ // Thiết lập thời gian đích mà ta sẽ đếm
+        //45 phút
+ //var countDownDate = new Date().getTime() + 4.5*600200;
+ var countDownDate = new Date().getTime() + 10000;
+//alert(countDownDate)
+ // cập nhập thời gian sau mỗi 1 giây
+ var x = setInterval(function() {
+   // Lấy thời gian hiện tại
+   var now = new Date().getTime();
+   // Lấy số thời gian chênh lệch
+   var distance = countDownDate - now;
+   // Tính toán số ngày, giờ, phút, giây từ thời gian chênh lệch
+   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+   // HIển thị chuỗi thời gian trong thẻ p
+   document.getElementById("demo").innerHTML =
+   + minutes + "Phút " + seconds + "Giây ";
+   // Nếu thời gian kết thúc, hiển thị chuỗi thông báo
+   if (distance < 0) {
+     clearInterval(x);
+     document.getElementById("demo").innerHTML = "Thời gian đếm ngược đã kết thúc";
+   }
+ }, 1000);
+    </script>
+</body>
+</html>

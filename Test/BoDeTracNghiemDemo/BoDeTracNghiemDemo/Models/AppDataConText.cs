@@ -22,5 +22,7 @@ namespace BoDeTracNghiemDemo.Models
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<CauHoiThi>().HasKey(ct => new { ct.CauHoiId, ct.ThiId });
         }
+
+        public DbSet<BoDeTracNghiemDemo.Models.CauHoiThi> CauHoiThi { get; set; }
     }
 }

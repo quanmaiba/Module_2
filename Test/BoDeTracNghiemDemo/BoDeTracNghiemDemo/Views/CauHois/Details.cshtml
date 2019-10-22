@@ -1,0 +1,54 @@
+﻿@model BoDeTracNghiemDemo.Models.CauHoi
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>CauHoi</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TenCauHoi)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TenCauHoi)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CauTraLoi1)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CauTraLoi1)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CauTraLoi2)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CauTraLoi2)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CauTraLoi3)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CauTraLoi3)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CauTraLoi4)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CauTraLoi4)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TheLoai)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TheLoai.TenTheLoai)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.CauHoiId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
